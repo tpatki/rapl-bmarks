@@ -1,0 +1,136 @@
++ i=16
++ minthreads=16
++ j=2
++ maxnodes=2
++ export READ_WRITE=1
++ READ_WRITE=1
++ export PKG_MINW_MINS=0x38198
++ PKG_MINW_MINS=0x38198
++ export PP0_MINW_MINS=0x38198
++ PP0_MINW_MINS=0x38198
++ export DRAM_MINW_MINS=0x38078
++ DRAM_MINW_MINS=0x38078
++ export MSR_PKG_POWER_LIMIT=0x0
++ MSR_PKG_POWER_LIMIT=0x0
++ export MSR_PP0_POWER_LIMIT=0x0
++ MSR_PP0_POWER_LIMIT=0x0
++ export MSR_DRAM_POWER_LIMIT=0x0
++ MSR_DRAM_POWER_LIMIT=0x0
++ export MSR_RANK_MOD=1
++ MSR_RANK_MOD=1
++ for pkg in 0x38198 0x038208 0x038280 0x0382f8
++ i=16
++ j=2
++ export MSR_PKG_POWER_LIMIT=0x38198
++ MSR_PKG_POWER_LIMIT=0x38198
++ '[' 2 -le 2 ']'
++ i=16
++ '[' 16 -ge 16 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_07_26_10_09_37_534580086
++ mkdir 2012_07_26_10_09_37_534580086
++ cd 2012_07_26_10_09_37_534580086
++ touch out.dat
++ env
++ echo 2012_07_26_10_09_37_534580086
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 2
++ srun --nodes=2 --ntasks=2 -o out.dat -e f.err ../NAS-MZ/bin/sp-mz.C.2
++ cd ../
++ i=14
++ '[' 14 -ge 16 ']'
++ j=4
++ '[' 4 -le 2 ']'
++ for pkg in 0x38198 0x038208 0x038280 0x0382f8
++ i=16
++ j=2
++ export MSR_PKG_POWER_LIMIT=0x038208
++ MSR_PKG_POWER_LIMIT=0x038208
++ '[' 2 -le 2 ']'
++ i=16
++ '[' 16 -ge 16 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_07_26_10_10_44_276978318
++ mkdir 2012_07_26_10_10_44_276978318
++ cd 2012_07_26_10_10_44_276978318
++ touch out.dat
++ env
++ echo 2012_07_26_10_10_44_276978318
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 2
++ srun --nodes=2 --ntasks=2 -o out.dat -e f.err ../NAS-MZ/bin/sp-mz.C.2
++ cd ../
++ i=14
++ '[' 14 -ge 16 ']'
++ j=4
++ '[' 4 -le 2 ']'
++ for pkg in 0x38198 0x038208 0x038280 0x0382f8
++ i=16
++ j=2
++ export MSR_PKG_POWER_LIMIT=0x038280
++ MSR_PKG_POWER_LIMIT=0x038280
++ '[' 2 -le 2 ']'
++ i=16
++ '[' 16 -ge 16 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_07_26_10_11_41_164976541
++ mkdir 2012_07_26_10_11_41_164976541
++ cd 2012_07_26_10_11_41_164976541
++ touch out.dat
++ env
++ echo 2012_07_26_10_11_41_164976541
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 2
++ srun --nodes=2 --ntasks=2 -o out.dat -e f.err ../NAS-MZ/bin/sp-mz.C.2
++ cd ../
++ i=14
++ '[' 14 -ge 16 ']'
++ j=4
++ '[' 4 -le 2 ']'
++ for pkg in 0x38198 0x038208 0x038280 0x0382f8
++ i=16
++ j=2
++ export MSR_PKG_POWER_LIMIT=0x0382f8
++ MSR_PKG_POWER_LIMIT=0x0382f8
++ '[' 2 -le 2 ']'
++ i=16
++ '[' 16 -ge 16 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_07_26_10_12_34_628378481
++ mkdir 2012_07_26_10_12_34_628378481
++ cd 2012_07_26_10_12_34_628378481
++ touch out.dat
++ env
++ echo 2012_07_26_10_12_34_628378481
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 2
++ srun --nodes=2 --ntasks=2 -o out.dat -e f.err ../NAS-MZ/bin/sp-mz.C.2
++ cd ../
++ i=14
++ '[' 14 -ge 16 ']'
++ j=4
++ '[' 4 -le 2 ']'
