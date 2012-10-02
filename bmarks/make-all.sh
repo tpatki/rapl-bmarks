@@ -3,8 +3,12 @@
 cd librapl/libmsr
 mkdir -p lib
 make clean && make 
+
 cd mpi
 make clean && make rapl-icc 
+
+cd ../examples/spin-with-barrier
+make clean && make
 cd ../../../
 
 cd lulesh
