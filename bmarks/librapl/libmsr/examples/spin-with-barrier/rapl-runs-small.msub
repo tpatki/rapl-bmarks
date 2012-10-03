@@ -1,6 +1,6 @@
 #!/bin/bash
 #MSUB -lpartition=rzmerl
-#MSUB -A lc
+#MSUB -A asccasc
 #MSUB -l nodes=32
 #MSUB -q pbatch
 #MSUB -l walltime=04:00:00
