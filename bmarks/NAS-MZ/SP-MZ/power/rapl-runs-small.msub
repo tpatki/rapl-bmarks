@@ -3,7 +3,7 @@
 #MSUB -A lc
 #MSUB -l nodes=32
 #MSUB -q pbatch
-#MSUB -l walltime=04:00:00
+#MSUB -l walltime=06:00:00
 
 set -x
 
@@ -24,7 +24,7 @@ export SAMPLE=1
 
 t=0
 
-for $t in 0 1
+for t in 0 1
 do
 
 export TURBO_ENABLE=$t
