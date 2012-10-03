@@ -1,4 +1,4 @@
-c NPROCS = 1 CLASS = C
+c NPROCS = 128 CLASS = C
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -8,7 +8,7 @@ c
         character class
         parameter (class='C')
         integer num_procs, num_procs2
-        parameter (num_procs=1, num_procs2=1)
+        parameter (num_procs=128, num_procs2=128)
         integer x_zones, y_zones
         parameter (x_zones=16, y_zones=16)
         integer gx_size, gy_size, gz_size, niter_default
@@ -18,13 +18,13 @@ c
         parameter (problem_size = 30)
         integer max_xysize, max_xybcsize
         integer proc_max_size, proc_max_size5, proc_max_bcsize
-        parameter (max_xysize=158720)
-        parameter (max_xybcsize=120320)
+        parameter (max_xysize=1240)
+        parameter (max_xybcsize=940)
         parameter (proc_max_size=max_xysize*gz_size)
         parameter (proc_max_size5=proc_max_size*5)
         parameter (proc_max_bcsize=max_xybcsize*(gz_size-2))
         integer max_numzones
-        parameter (max_numzones=256)
+        parameter (max_numzones=2)
         double precision dt_default, ratio
         parameter (dt_default = 0.00067d0, ratio = 1.d0)
         integer start1, start5, qstart_west, qstart_east
