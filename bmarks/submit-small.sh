@@ -21,4 +21,4 @@ msub rapl-runs-small.msub
 
 
 #cd ../../hypre/power
-#msub rapl-runs-small.msub
+##msub rapl-runs-small.msub

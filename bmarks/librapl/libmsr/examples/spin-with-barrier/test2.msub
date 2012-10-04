@@ -14,11 +14,12 @@ export MSR_DRAM_POWER_LIMIT=0x0
 export MSR_RANK_MOD=1 #Onetask per node, the rest are threads
 export SAMPLE=1
 
-t =0
+t=0
 export TURBO_ENABLE=$t
 
 export READ_WRITE=0
 export READ_ONLY=1
 
-               srun --nodes=1 --ntasks=1 -o out.dat -e f.err ./mpi-spin 1
+#               srun --nodes=1 --ntasks=1 -o out.dat -e f.err ./mpi-spin 1
+               mpirun -np 1 ./mpi-spin 1
 
