@@ -5,7 +5,7 @@ mkdir -p lib
 make clean && make 
 
 cd mpi
-make clean && make rapl-icc 
+make clean && make rapl-gnu
 
 cd ../examples/spin-with-barrier
 make clean && make
