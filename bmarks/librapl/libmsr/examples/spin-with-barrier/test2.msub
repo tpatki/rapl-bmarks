@@ -1,0 +1,24 @@
+#!/bin/bash
+#MSUB -lpartition=cab
+#MSUB -A lc
+#MSUB -l nodes=1
+#MSUB -q pbatch
+#MSUB -l walltime=00:10:00
+
+export PKG_MINW_MINS=0x38198
+export PP0_MINW_MINS=0x38198
+export DRAM_MINW_MINS=0x38078
+export MSR_PKG_POWER_LIMIT=0x0
+export MSR_PP0_POWER_LIMIT=0x0
+export MSR_DRAM_POWER_LIMIT=0x0
+export MSR_RANK_MOD=1 #Onetask per node, the rest are threads
+export SAMPLE=1
+
+t =0
+export TURBO_ENABLE=$t
+
+export READ_WRITE=0
+export READ_ONLY=1
+
+               srun --nodes=1 --ntasks=1 -o out.dat -e f.err ./mpi-spin 1
+
