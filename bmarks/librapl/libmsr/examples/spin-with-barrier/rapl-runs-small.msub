@@ -19,8 +19,7 @@ export DRAM_MINW_MINS=0x38078
 export MSR_PKG_POWER_LIMIT=0x0
 export MSR_PP0_POWER_LIMIT=0x0
 export MSR_DRAM_POWER_LIMIT=0x0
-export MSR_RANK_MOD=1 #One
- task per node, the rest are threads
+export MSR_RANK_MOD=1 #One task per node, the rest are threads
 export SAMPLE=1
 
 t=0
