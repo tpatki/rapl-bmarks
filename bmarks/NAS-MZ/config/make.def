@@ -87,7 +87,7 @@ CLINK	= $(CC)
 #---------------------------------------------------------------------------
 # These macros are passed to the linker 
 #---------------------------------------------------------------------------
-C_LIB  = -Xlinker -rpath -Xlinker $(HOME)/local/src/bmarks/rapl-bmarks/librapl/libmsr/lib -L $(HOME)/local/src/rapl-bmarks/bmarks/librapl/libmsr/lib -lrapl
+C_LIB  = -Xlinker -rpath -Xlinker $(HOME)/local/src/rapl-bmarks/bmarks/librapl/libmsr/lib -L $(HOME)/local/src/rapl-bmarks/bmarks/librapl/libmsr/lib -lrapl
 
 #C_LIB = 
 #---------------------------------------------------------------------------
