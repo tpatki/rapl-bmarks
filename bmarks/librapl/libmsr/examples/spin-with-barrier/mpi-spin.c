@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <mpi.h>
 
-#define LONG_RANGE 3600000000
+#define LONG_RANGE 7000000000
 //#define LONG_RANGE 50000
 
 main(int argc, char **argv)
