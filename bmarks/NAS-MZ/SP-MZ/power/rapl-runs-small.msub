@@ -1,6 +1,6 @@
 #!/bin/bash
-#MSUB -lpartition=cab
-#MSUB -A lc
+#MSUB -lpartition=rzmerl
+#MSUB -A asccasc
 #MSUB -l nodes=32
 #MSUB -q pbatch
 #MSUB -m abe
