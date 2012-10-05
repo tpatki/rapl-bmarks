@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#Export path to libmsr
+curr=`pwd`
+
+export PATH_LIBMSR=$curr/librapl/libmsr/lib
+echo $PATH_LIBMSR
+
 cd librapl/libmsr
 mkdir -p lib
 make clean && make 
