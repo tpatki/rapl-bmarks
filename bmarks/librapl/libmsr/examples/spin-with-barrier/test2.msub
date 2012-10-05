@@ -20,6 +20,6 @@ export TURBO_ENABLE=$t
 export READ_WRITE=0
 export READ_ONLY=1
 
-#               srun --nodes=1 --ntasks=1 -o out.dat -e f.err ./mpi-spin 1
-               mpirun -np 1 ./mpi-spin 1
+               srun --nodes=1 --ntasks=1 -o out.dat -e f.err ./mpi-spin 1
+#               mpirun -np 1 ./mpi-spin 1
 
