@@ -3,6 +3,8 @@
 #MSUB -A lc
 #MSUB -l nodes=32
 #MSUB -q pbatch
+#MSUB -m abe
+#MSUB -M rountree@llnl.gov,tpatki@email.arizona.edu
 #MSUB -l walltime=06:00:00
 
 set -x
