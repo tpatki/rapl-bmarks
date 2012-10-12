@@ -23,10 +23,10 @@ cd ../../../
 #cd ../sphot
 #make clean && make
 
-cd ../NAS-MZ
-make clean 
-mkdir -p bin
-sh makeSP_MZ.sh
+#cd ../NAS-MZ
+#make clean 
+#mkdir -p bin
+#sh makeSP_MZ.sh
 #sh makeBT_MZ.sh
 #sh makeLU_MZ.sh
 
