@@ -10,14 +10,18 @@ main(int argc, char **argv)
   unsigned long i=0;
   int iter=1;
   int j;
+  double starttime, endtime;
 
   //read iter 
 
   iter = atoi(argv[1]);
+//  printf("Entering the MPI environment");
 
 
    MPI_Init(&argc,&argv);
    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+   starttime = MPI_Wtime();
+
 
    for(j=0;j<iter;j++){
 
@@ -27,6 +31,10 @@ main(int argc, char **argv)
 
    }
             
+   endtime   = MPI_Wtime();
+
+   printf("\nThat took %f seconds for rank %d\n",endtime-starttime, rank);
+ 
    MPI_Finalize();
 }
 
