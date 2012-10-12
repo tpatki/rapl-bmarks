@@ -5,14 +5,14 @@
 #MSUB -q pbatch
 #MSUB -m abe
 #MSUB -M rountree@llnl.gov,tpatki@email.arizona.edu
-#MSUB -l walltime=04:00:00
+#MSUB -l walltime=06:00:00
 
 set -x
 
 i=16
-minthreads=4
+minthreads=2
 
-j=8
+j=4
 maxnodes=32
 
 export PKG_MINW_MINS=0x38198
@@ -36,7 +36,7 @@ export READ_WRITE=0
 export READ_ONLY=1
 
 i=16
-j=8
+j=4
         while [ $j -le $maxnodes ]
         do
         i=16
@@ -78,7 +78,7 @@ export READ_ONLY=0
 for pkg in 0x38198 0x038208 0x038280 0x0382f8
 do
 i=16
-j=8
+j=4
 export MSR_PKG_POWER_LIMIT=${pkg}
 	while [ $j -le $maxnodes ]
 	do
