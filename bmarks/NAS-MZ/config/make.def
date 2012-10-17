@@ -37,7 +37,8 @@ FLINK	= $(F77)
 #---------------------------------------------------------------------------
 # These macros are passed to the linker 
 #---------------------------------------------------------------------------
-F_LIB  = -Xlinker -rpath -Xlinker $(HOME)/local/src/rapl-bmarks/bmarks/librapl/libmsr/lib -L$(HOME)/local/src/rapl-bmarks/bmarks/librapl/libmsr/lib -lrapl
+#F_LIB  = -Xlinker -rpath -Xlinker $(HOME)/local/src/rapl-bmarks/bmarks/librapl/libmsr/lib -L$(HOME)/local/src/rapl-bmarks/bmarks/librapl/libmsr/lib -lrapl
+F_LIB  = -Xlinker -rpath -Xlinker $(PATH_LIBMSR) -L$(PATH_LIBMSR) -lrapl
 
 #F_LIB =
 #---------------------------------------------------------------------------
@@ -87,7 +88,8 @@ CLINK	= $(CC)
 #---------------------------------------------------------------------------
 # These macros are passed to the linker 
 #---------------------------------------------------------------------------
-C_LIB  = -Xlinker -rpath -Xlinker $(HOME)/local/src/bmarks/rapl-bmarks/librapl/libmsr/lib -L $(HOME)/local/src/rapl-bmarks/bmarks/librapl/libmsr/lib -lrapl
+#C_LIB  = -Xlinker -rpath -Xlinker $(HOME)/local/src/rapl-bmarks/bmarks/librapl/libmsr/lib -L $(HOME)/local/src/rapl-bmarks/bmarks/librapl/libmsr/lib -lrapl
+C_LIB  = -Xlinker -rpath -Xlinker $(PATH_LIBMSR) -L$(PATH_LIBMSR) -lrapl
 
 #C_LIB = 
 #---------------------------------------------------------------------------

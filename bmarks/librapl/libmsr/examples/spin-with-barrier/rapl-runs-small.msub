@@ -3,14 +3,16 @@
 #MSUB -A asccasc
 #MSUB -l nodes=32
 #MSUB -q pbatch
-#MSUB -l walltime=04:00:00
+#MSUB -m abe
+#MSUB -M rountree@llnl.gov,tpatki@email.arizona.edu
+#MSUB -l walltime=06:00:00
 
 set -x
 
 i=16
-minthreads=4
+minthreads=2
 
-j=8
+j=4
 maxnodes=32
 
 export PKG_MINW_MINS=0x38198
@@ -19,13 +21,12 @@ export DRAM_MINW_MINS=0x38078
 export MSR_PKG_POWER_LIMIT=0x0
 export MSR_PP0_POWER_LIMIT=0x0
 export MSR_DRAM_POWER_LIMIT=0x0
-export MSR_RANK_MOD=1 #One
- task per node, the rest are threads
+export MSR_RANK_MOD=1 #One task per node, the rest are threads
 export SAMPLE=1
 
 t=0
 
-for $t in 0 1
+for t in 0 1
 do
 
 export TURBO_ENABLE=$t
@@ -35,7 +36,7 @@ export READ_WRITE=0
 export READ_ONLY=1
 
 i=16
-j=8
+j=4
         while [ $j -le $maxnodes ]
         do
         i=16
@@ -54,8 +55,10 @@ j=8
                 srun --nodes=1 --ntasks=1 -o host_info hostname
                 echo 'tasks/node: '$i >> info
                 echo 'nodes: ' $j >> info
+		echo 'turbo: ' $t >>info
 
-                srun --nodes=$j --ntasks=$(($j * $i)) -o out.dat -e f.err ../mpi-spin 2
+               srun --nodes=$j --ntasks=$(($j * $i)) -o out.dat -e f.err ../mpi-spin 2
+
 
                 cd ../
 
@@ -75,7 +78,7 @@ export READ_ONLY=0
 for pkg in 0x38198 0x038208 0x038280 0x0382f8
 do
 i=16
-j=8
+j=4
 export MSR_PKG_POWER_LIMIT=${pkg}
 	while [ $j -le $maxnodes ]
 	do
@@ -95,6 +98,7 @@ export MSR_PKG_POWER_LIMIT=${pkg}
 		srun --nodes=1 --ntasks=1 -o host_info hostname
 		echo 'tasks/node: '$i >> info
 		echo 'nodes: ' $j >> info
+		echo 'turbo: ' $t >>info
 
 		srun --nodes=$j --ntasks=$(($j * $i)) -o out.dat -e f.err ../mpi-spin 2  
 

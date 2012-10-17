@@ -1,11 +1,17 @@
 #!/bin/bash
 
+#Export path to libmsr
+curr=`pwd`
+
+export PATH_LIBMSR=$curr/librapl/libmsr/lib
+echo $PATH_LIBMSR
+
 cd librapl/libmsr
 mkdir -p lib
 make clean && make 
 
 cd mpi
-make clean && make rapl-icc 
+make clean && make rapl-gnu
 
 cd ../examples/spin-with-barrier
 make clean && make
@@ -17,10 +23,10 @@ cd ../../../
 #cd ../sphot
 #make clean && make
 
-cd ../NAS-MZ
-make clean 
-mkdir -p bin
-sh makeSP_MZ.sh
+#cd ../NAS-MZ
+#make clean 
+#mkdir -p bin
+#sh makeSP_MZ.sh
 #sh makeBT_MZ.sh
 #sh makeLU_MZ.sh
 
