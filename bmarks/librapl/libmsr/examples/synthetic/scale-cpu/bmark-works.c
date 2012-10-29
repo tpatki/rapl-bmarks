@@ -41,7 +41,11 @@ int main(int argc, char * argv[]){
          {
  
                  int t =  omp_get_num_threads();
+                 printf("\nNum threads %d", t);
+                 printf("\nMychunk %ld", mychunk);
                  unsigned long smallchunk = (unsigned long)mychunk/t;
+                 printf("\nSmallchunk%ld", smallchunk);
+ 
                  for(i=0; i<smallchunk; i++);
  
          }
