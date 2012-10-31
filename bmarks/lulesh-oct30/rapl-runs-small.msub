@@ -57,7 +57,7 @@ do
 
 	#sz=$(($size/($j-1)))	
 	
-	srun --nodes=$nodes --ntasks=$nodes -e f.err -o out.dat ../../luleshMPI_OMP #$sz time.out 
+	srun --nodes=$nodes --ntasks=$nodes -e f.err -o out.dat ../luleshMPI_OMP #$sz time.out 
 
 	cd ../
 
