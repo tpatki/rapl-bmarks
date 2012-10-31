@@ -30,7 +30,7 @@ export SAMPLE=0
 for pkg in 0x38198 0x038208 0x038280 0x0382f8
 do
 i=16
-j=2
+j=1
 nodes=8
 export MSR_PKG_POWER_LIMIT=${pkg}
 
