@@ -36,9 +36,8 @@ int main(int argc, char * argv[]){
 
 	MPI_Bcast(&mychunk, 1, MPI_UNSIGNED_LONG, root, MPI_COMM_WORLD);
 
-	#pragma omp parallel 
-		printf("\nNum threads %d", omp_get_num_threads());
-	#pragma omp for schedule (static) nowait
+	#pragma omp parallel private(i)
+	#pragma omp for
 		//Run a spin loop. Use O0 to run unoptimized	
 		for(i=0;i<mychunk;i++);
 	

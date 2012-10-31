@@ -13,9 +13,12 @@ make clean && make
 cd mpi
 make clean && make rapl-gnu
 
-cd ../examples/spin-with-barrier
+cd ../../../lulesh-oct30
 make clean && make
-cd ../../../
+
+#cd ../examples/spin-with-barrier
+#make clean && make
+#cd ../../../
 
 #cd lulesh
 #make clean && make
