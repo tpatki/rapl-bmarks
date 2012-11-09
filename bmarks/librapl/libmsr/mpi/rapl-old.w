@@ -13,14 +13,12 @@ static int rank;
 static char hostname[1025];
 extern int msr_debug;
 static FILE* f;
-static FILE* f2;
 struct rapl_state_s *rs;
 struct rapl_state_s *rs2;
 struct rapl_state_s *rs3;
 char filetag[2048];
 char sampleFile[2048];
 char barrierFile[2048];
-char funcFile[2048];
 int retVal = -1; 
 
 static struct rapl_state_s temp;
@@ -58,13 +56,7 @@ static int sample = 0;
 		rs2 = rapl_init(filetag); 
 		//Initialization to record the first tick
 		rs3 = &temp;
-		sprintf(barrierFile, "fSmpl_%s_%d", hostname, rank);
-		sprintf(funcFile, "fName_%s_%d", hostname, rank);
-		
-        	f2 = fopen(funcFile, "a");
-		fprintf(f2, "Name\n");
-		fclose(f2);
-	
+		sprintf(barrierFile, "barrier_%s_%d", hostname, rank);
 		rapl_tick(rs3, barrierFile);	
 
 
@@ -75,22 +67,14 @@ static int sample = 0;
 
 		}
 	}
-	//As suggested by Martin
-	PMPI_Barrier(MPI_COMM_WORLD);
 {{endfn}}
 
-{{fnall foo MPI_Init MPI_Finalize}} {
-  {{callfn}}
-  if(rank % msr_rank_mod ==0){
-        f2 = fopen(funcFile, "a");
-	fprintf(f2, "%s\n", __FUNCTION__);
-	fclose(f2);
+{{fn foo MPI_Barrier}}
+{{callfn}}
+if(rank % msr_rank_mod ==0){
 	rapl_tick(rs3, barrierFile);
-
-	}
 }
-{{endfnall}}
-
+{{endfn}}
 
 
 {{fn foo MPI_Finalize}}
