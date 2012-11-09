@@ -26,10 +26,10 @@ export SAMPLE=1
 
 t=0
 
-for t in 0 1
-do
+#for t in 0 1
+#do
 
-export TURBO_ENABLE=$t
+export TURBO_ENABLE=1
 
 #unbounded measurement
 export READ_WRITE=0
@@ -70,6 +70,7 @@ j=8
 
 #51, 65, 80 and 95W. Smallest time window.
 
+export TURBO_ENABLE=0
 export READ_WRITE=1
 export READ_ONLY=0
 
@@ -107,4 +108,4 @@ export MSR_PKG_POWER_LIMIT=${pkg}
 	done
 done
 
-done
+#done
