@@ -13,7 +13,7 @@ msub rapl-runs-small.msub
 #cd ../../../lulesh-oct30
 #msub rapl-runs-small.msub
 
-cd ../../sphot/power
+cd ../../../sphot/power
 msub rapl-runs-small.msub
 
 #cd ../../../librapl/libmsr/examples/spin-with-barrier/
