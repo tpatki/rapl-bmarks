@@ -1,6 +1,6 @@
 #!/bin/bash
 #MSUB -lpartition=cab
-#MSUB -A asccasc
+#MSUB -A lc
 #MSUB -l nodes=2
 #MSUB -q pbatch
 #MSUB -l walltime=00:10:00

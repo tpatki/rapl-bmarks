@@ -1,0 +1,4600 @@
++ i=16
++ minthreads=4
++ j=8
++ maxnodes=32
++ export PKG_MINW_MINS=0x38198
++ PKG_MINW_MINS=0x38198
++ export PP0_MINW_MINS=0x38198
++ PP0_MINW_MINS=0x38198
++ export DRAM_MINW_MINS=0x38078
++ DRAM_MINW_MINS=0x38078
++ export MSR_PKG_POWER_LIMIT=0x0
++ MSR_PKG_POWER_LIMIT=0x0
++ export MSR_PP0_POWER_LIMIT=0x0
++ MSR_PP0_POWER_LIMIT=0x0
++ export MSR_DRAM_POWER_LIMIT=0x0
++ MSR_DRAM_POWER_LIMIT=0x0
++ export MSR_RANK_MOD=1
++ MSR_RANK_MOD=1
++ export SAMPLE=1
++ SAMPLE=1
++ t=0
++ export TURBO_ENABLE=1
++ TURBO_ENABLE=1
++ export READ_WRITE=0
++ READ_WRITE=0
++ export READ_ONLY=1
++ READ_ONLY=1
++ i=16
++ j=8
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_07_053157613
++ mkdir 2012_11_09_22_23_07_053157613
++ cd 2012_11_09_22_23_07_053157613
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_07_053157613
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_07_791481318
++ mkdir 2012_11_09_22_23_07_791481318
++ cd 2012_11_09_22_23_07_791481318
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_07_791481318
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl28: task 2: Exited with exit code 2
+srun: error: rzmerl41: task 5: Exited with exit code 2
+srun: error: rzmerl34: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 1: Exited with exit code 2
+srun: error: rzmerl33: task 3: Exited with exit code 2
+srun: error: rzmerl20: task 0: Exited with exit code 2
+srun: error: rzmerl44: task 6: Exited with exit code 2
+srun: error: rzmerl47: task 7: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_08_366264996
++ mkdir 2012_11_09_22_23_08_366264996
++ cd 2012_11_09_22_23_08_366264996
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_08_366264996
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_08_686524199
++ mkdir 2012_11_09_22_23_08_686524199
++ cd 2012_11_09_22_23_08_686524199
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_08_686524199
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_09_012379822
++ mkdir 2012_11_09_22_23_09_012379822
++ cd 2012_11_09_22_23_09_012379822
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_09_012379822
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_09_358052745
++ mkdir 2012_11_09_22_23_09_358052745
++ cd 2012_11_09_22_23_09_358052745
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_09_358052745
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_09_679414773
++ mkdir 2012_11_09_22_23_09_679414773
++ cd 2012_11_09_22_23_09_679414773
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_09_679414773
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=16
++ '[' 16 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_10_031351379
++ mkdir 2012_11_09_22_23_10_031351379
++ cd 2012_11_09_22_23_10_031351379
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_10_031351379
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_10_720263064
++ mkdir 2012_11_09_22_23_10_720263064
++ cd 2012_11_09_22_23_10_720263064
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_10_720263064
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_11_135633685
++ mkdir 2012_11_09_22_23_11_135633685
++ cd 2012_11_09_22_23_11_135633685
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_11_135633685
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_11_433860925
++ mkdir 2012_11_09_22_23_11_433860925
++ cd 2012_11_09_22_23_11_433860925
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_11_433860925
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl58: task 9: Exited with exit code 2
+srun: error: rzmerl20: task 0: Exited with exit code 2
+srun: error: rzmerl34: task 4: Exited with exit code 2
+srun: error: rzmerl28: task 2: Exited with exit code 2
+srun: error: rzmerl25: task 1: Exited with exit code 2
+srun: error: rzmerl33: task 3: Exited with exit code 2
+srun: error: rzmerl53: task 8: Exited with exit code 2
+srun: error: rzmerl41: task 5: Exited with exit code 2
+srun: error: rzmerl69: task 14: Exited with exit code 2
+srun: error: rzmerl44: task 6: Exited with exit code 2
+srun: error: rzmerl47: task 7: Exited with exit code 2
+srun: error: rzmerl62: task 10: Exited with exit code 2
+srun: error: rzmerl67: task 12: Exited with exit code 2
+srun: error: rzmerl68: task 13: Exited with exit code 2
+srun: error: rzmerl64: task 11: Exited with exit code 2
+srun: error: rzmerl71: task 15: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_12_046646229
++ mkdir 2012_11_09_22_23_12_046646229
++ cd 2012_11_09_22_23_12_046646229
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_12_046646229
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl41: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 1: Exited with exit code 2
+srun: error: rzmerl20: task 0: Exited with exit code 2
+srun: error: rzmerl47: task 7: Exited with exit code 2
+srun: error: rzmerl28: task 2: Exited with exit code 2
+srun: error: rzmerl67: task 12: Exited with exit code 2
+srun: error: rzmerl44: task 6: Exited with exit code 2
+srun: error: rzmerl33: task 3: Exited with exit code 2
+srun: error: rzmerl53: task 8: Exited with exit code 2
+srun: error: rzmerl69: task 14: Exited with exit code 2
+srun: error: rzmerl34: task 4: Exited with exit code 2
+srun: error: rzmerl64: task 11: Exited with exit code 2
+srun: error: rzmerl71: task 15: Exited with exit code 2
+srun: error: rzmerl68: task 13: Exited with exit code 2
+srun: error: rzmerl58: task 9: Exited with exit code 2
+srun: error: rzmerl62: task 10: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_12_343277182
++ mkdir 2012_11_09_22_23_12_343277182
++ cd 2012_11_09_22_23_12_343277182
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_12_343277182
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl25: task 1: Exited with exit code 2
+srun: error: rzmerl34: task 4: Exited with exit code 2
+srun: error: rzmerl58: task 9: Exited with exit code 2
+srun: error: rzmerl62: task 10: Exited with exit code 2
+srun: error: rzmerl28: task 2: Exited with exit code 2
+srun: error: rzmerl20: task 0: Exited with exit code 2
+srun: error: rzmerl41: task 5: Exited with exit code 2
+srun: error: rzmerl44: task 6: Exited with exit code 2
+srun: error: rzmerl33: task 3: Exited with exit code 2
+srun: error: rzmerl53: task 8: Exited with exit code 2
+srun: error: rzmerl69: task 14: Exited with exit code 2
+srun: error: rzmerl64: task 11: Exited with exit code 2
+srun: error: rzmerl67: task 12: Exited with exit code 2
+srun: error: rzmerl71: task 15: Exited with exit code 2
+srun: error: rzmerl47: task 7: Exited with exit code 2
+srun: error: rzmerl68: task 13: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_12_648328572
++ mkdir 2012_11_09_22_23_12_648328572
++ cd 2012_11_09_22_23_12_648328572
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_12_648328572
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=32
++ '[' 32 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_12_967405984
++ mkdir 2012_11_09_22_23_12_967405984
++ cd 2012_11_09_22_23_12_967405984
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_12_967405984
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_13_680552780
++ mkdir 2012_11_09_22_23_13_680552780
++ cd 2012_11_09_22_23_13_680552780
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_13_680552780
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_13_994028678
++ mkdir 2012_11_09_22_23_13_994028678
++ cd 2012_11_09_22_23_13_994028678
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_13_994028678
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_14_819353255
++ mkdir 2012_11_09_22_23_14_819353255
++ cd 2012_11_09_22_23_14_819353255
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_14_819353255
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_15_125655054
++ mkdir 2012_11_09_22_23_15_125655054
++ cd 2012_11_09_22_23_15_125655054
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_15_125655054
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_15_455650737
++ mkdir 2012_11_09_22_23_15_455650737
++ cd 2012_11_09_22_23_15_455650737
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_15_455650737
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_15_799787080
++ mkdir 2012_11_09_22_23_15_799787080
++ cd 2012_11_09_22_23_15_799787080
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_15_799787080
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=64
++ '[' 64 -le 32 ']'
++ export TURBO_ENABLE=0
++ TURBO_ENABLE=0
++ export READ_WRITE=1
++ READ_WRITE=1
++ export READ_ONLY=0
++ READ_ONLY=0
++ for pkg in 0x38198 0x038208 0x038280 0x0382f8
++ i=16
++ j=8
++ export MSR_PKG_POWER_LIMIT=0x38198
++ MSR_PKG_POWER_LIMIT=0x38198
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_16_119027591
++ mkdir 2012_11_09_22_23_16_119027591
++ cd 2012_11_09_22_23_16_119027591
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_16_119027591
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_16_478003685
++ mkdir 2012_11_09_22_23_16_478003685
++ cd 2012_11_09_22_23_16_478003685
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_16_478003685
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl41: task 5: Exited with exit code 2
+srun: error: rzmerl44: task 6: Exited with exit code 2
+srun: error: rzmerl25: task 1: Exited with exit code 2
+srun: error: rzmerl47: task 7: Exited with exit code 2
+srun: error: rzmerl28: task 2: Exited with exit code 2
+srun: error: rzmerl33: task 3: Exited with exit code 2
+srun: error: rzmerl20: task 0: Exited with exit code 2
+srun: error: rzmerl34: task 4: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_16_782223113
++ mkdir 2012_11_09_22_23_16_782223113
++ cd 2012_11_09_22_23_16_782223113
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_16_782223113
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl47: task 7: Exited with exit code 2
+srun: error: rzmerl28: task 2: Exited with exit code 2
+srun: error: rzmerl44: task 6: Exited with exit code 2
+srun: error: rzmerl41: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 1: Exited with exit code 2
+srun: error: rzmerl20: task 0: Exited with exit code 2
+srun: error: rzmerl34: task 4: Exited with exit code 2
+srun: error: rzmerl33: task 3: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_17_121003885
++ mkdir 2012_11_09_22_23_17_121003885
++ cd 2012_11_09_22_23_17_121003885
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_17_121003885
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_17_447983683
++ mkdir 2012_11_09_22_23_17_447983683
++ cd 2012_11_09_22_23_17_447983683
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_17_447983683
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_17_775173087
++ mkdir 2012_11_09_22_23_17_775173087
++ cd 2012_11_09_22_23_17_775173087
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_17_775173087
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_18_107731965
++ mkdir 2012_11_09_22_23_18_107731965
++ cd 2012_11_09_22_23_18_107731965
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_18_107731965
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=16
++ '[' 16 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_18_418122105
++ mkdir 2012_11_09_22_23_18_418122105
++ cd 2012_11_09_22_23_18_418122105
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_18_418122105
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_18_726642378
++ mkdir 2012_11_09_22_23_18_726642378
++ cd 2012_11_09_22_23_18_726642378
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_18_726642378
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_19_073121627
++ mkdir 2012_11_09_22_23_19_073121627
++ cd 2012_11_09_22_23_19_073121627
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_19_073121627
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_19_381615405
++ mkdir 2012_11_09_22_23_19_381615405
++ cd 2012_11_09_22_23_19_381615405
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_19_381615405
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_19_725859810
++ mkdir 2012_11_09_22_23_19_725859810
++ cd 2012_11_09_22_23_19_725859810
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_19_725859810
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_20_006051524
++ mkdir 2012_11_09_22_23_20_006051524
++ cd 2012_11_09_22_23_20_006051524
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_20_006051524
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_20_282850122
++ mkdir 2012_11_09_22_23_20_282850122
++ cd 2012_11_09_22_23_20_282850122
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_20_282850122
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=32
++ '[' 32 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_20_618060971
++ mkdir 2012_11_09_22_23_20_618060971
++ cd 2012_11_09_22_23_20_618060971
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_20_618060971
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_20_940937064
++ mkdir 2012_11_09_22_23_20_940937064
++ cd 2012_11_09_22_23_20_940937064
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_20_940937064
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_21_252792758
++ mkdir 2012_11_09_22_23_21_252792758
++ cd 2012_11_09_22_23_21_252792758
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_21_252792758
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_21_570223409
++ mkdir 2012_11_09_22_23_21_570223409
++ cd 2012_11_09_22_23_21_570223409
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_21_570223409
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_21_875053408
++ mkdir 2012_11_09_22_23_21_875053408
++ cd 2012_11_09_22_23_21_875053408
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_21_875053408
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_22_390905567
++ mkdir 2012_11_09_22_23_22_390905567
++ cd 2012_11_09_22_23_22_390905567
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_22_390905567
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_22_976906059
++ mkdir 2012_11_09_22_23_22_976906059
++ cd 2012_11_09_22_23_22_976906059
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_22_976906059
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=64
++ '[' 64 -le 32 ']'
++ for pkg in 0x38198 0x038208 0x038280 0x0382f8
++ i=16
++ j=8
++ export MSR_PKG_POWER_LIMIT=0x038208
++ MSR_PKG_POWER_LIMIT=0x038208
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_23_312080485
++ mkdir 2012_11_09_22_23_23_312080485
++ cd 2012_11_09_22_23_23_312080485
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_23_312080485
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_23_613289987
++ mkdir 2012_11_09_22_23_23_613289987
++ cd 2012_11_09_22_23_23_613289987
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_23_613289987
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_24_100537966
++ mkdir 2012_11_09_22_23_24_100537966
++ cd 2012_11_09_22_23_24_100537966
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_24_100537966
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_24_433333397
++ mkdir 2012_11_09_22_23_24_433333397
++ cd 2012_11_09_22_23_24_433333397
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_24_433333397
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_24_770404475
++ mkdir 2012_11_09_22_23_24_770404475
++ cd 2012_11_09_22_23_24_770404475
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_24_770404475
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_25_106571631
++ mkdir 2012_11_09_22_23_25_106571631
++ cd 2012_11_09_22_23_25_106571631
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_25_106571631
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_25_435033713
++ mkdir 2012_11_09_22_23_25_435033713
++ cd 2012_11_09_22_23_25_435033713
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_25_435033713
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=16
++ '[' 16 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_25_774032340
++ mkdir 2012_11_09_22_23_25_774032340
++ cd 2012_11_09_22_23_25_774032340
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_25_774032340
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_26_111905034
++ mkdir 2012_11_09_22_23_26_111905034
++ cd 2012_11_09_22_23_26_111905034
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_26_111905034
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_26_452372317
++ mkdir 2012_11_09_22_23_26_452372317
++ cd 2012_11_09_22_23_26_452372317
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_26_452372317
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_26_786660437
++ mkdir 2012_11_09_22_23_26_786660437
++ cd 2012_11_09_22_23_26_786660437
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_26_786660437
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_27_127937814
++ mkdir 2012_11_09_22_23_27_127937814
++ cd 2012_11_09_22_23_27_127937814
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_27_127937814
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_27_463549000
++ mkdir 2012_11_09_22_23_27_463549000
++ cd 2012_11_09_22_23_27_463549000
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_27_463549000
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_27_797644196
++ mkdir 2012_11_09_22_23_27_797644196
++ cd 2012_11_09_22_23_27_797644196
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_27_797644196
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl33: task 3: Exited with exit code 2
+srun: error: rzmerl20: task 0: Exited with exit code 2
+srun: error: rzmerl34: task 4: Exited with exit code 2
+srun: error: rzmerl44: task 6: Exited with exit code 2
+srun: error: rzmerl68: task 13: Exited with exit code 2
+srun: error: rzmerl28: task 2: Exited with exit code 2
+srun: error: rzmerl25: task 1: Exited with exit code 2
+srun: error: rzmerl62: task 10: Exited with exit code 2
+srun: error: rzmerl58: task 9: Exited with exit code 2
+srun: error: rzmerl41: task 5: Exited with exit code 2
+srun: error: rzmerl47: task 7: Exited with exit code 2
+srun: error: rzmerl64: task 11: Exited with exit code 2
+srun: error: rzmerl71: task 15: Exited with exit code 2
+srun: error: rzmerl67: task 12: Exited with exit code 2
+srun: error: rzmerl69: task 14: Exited with exit code 2
+srun: error: rzmerl53: task 8: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=32
++ '[' 32 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_28_105490658
++ mkdir 2012_11_09_22_23_28_105490658
++ cd 2012_11_09_22_23_28_105490658
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_28_105490658
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_28_468082184
++ mkdir 2012_11_09_22_23_28_468082184
++ cd 2012_11_09_22_23_28_468082184
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_28_468082184
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_28_805007775
++ mkdir 2012_11_09_22_23_28_805007775
++ cd 2012_11_09_22_23_28_805007775
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_28_805007775
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_29_139273759
++ mkdir 2012_11_09_22_23_29_139273759
++ cd 2012_11_09_22_23_29_139273759
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_29_139273759
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_29_479715168
++ mkdir 2012_11_09_22_23_29_479715168
++ cd 2012_11_09_22_23_29_479715168
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_29_479715168
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_29_783871573
++ mkdir 2012_11_09_22_23_29_783871573
++ cd 2012_11_09_22_23_29_783871573
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_29_783871573
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_30_097996319
++ mkdir 2012_11_09_22_23_30_097996319
++ cd 2012_11_09_22_23_30_097996319
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_30_097996319
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=64
++ '[' 64 -le 32 ']'
++ for pkg in 0x38198 0x038208 0x038280 0x0382f8
++ i=16
++ j=8
++ export MSR_PKG_POWER_LIMIT=0x038280
++ MSR_PKG_POWER_LIMIT=0x038280
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_30_416005326
++ mkdir 2012_11_09_22_23_30_416005326
++ cd 2012_11_09_22_23_30_416005326
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_30_416005326
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_30_741949007
++ mkdir 2012_11_09_22_23_30_741949007
++ cd 2012_11_09_22_23_30_741949007
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_30_741949007
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_31_041009826
++ mkdir 2012_11_09_22_23_31_041009826
++ cd 2012_11_09_22_23_31_041009826
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_31_041009826
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl28: task 2: Exited with exit code 2
+srun: error: rzmerl33: task 3: Exited with exit code 2
+srun: error: rzmerl41: task 5: Exited with exit code 2
+srun: error: rzmerl20: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 1: Exited with exit code 2
+srun: error: rzmerl34: task 4: Exited with exit code 2
+srun: error: rzmerl44: task 6: Exited with exit code 2
+srun: error: rzmerl47: task 7: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_31_338500658
++ mkdir 2012_11_09_22_23_31_338500658
++ cd 2012_11_09_22_23_31_338500658
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_31_338500658
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_31_639942185
++ mkdir 2012_11_09_22_23_31_639942185
++ cd 2012_11_09_22_23_31_639942185
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_31_639942185
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_31_953392286
++ mkdir 2012_11_09_22_23_31_953392286
++ cd 2012_11_09_22_23_31_953392286
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_31_953392286
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_32_259210902
++ mkdir 2012_11_09_22_23_32_259210902
++ cd 2012_11_09_22_23_32_259210902
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_32_259210902
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl28: task 2: Exited with exit code 2
+srun: error: rzmerl47: task 7: Exited with exit code 2
+srun: error: rzmerl20: task 0: Exited with exit code 2
+srun: error: rzmerl34: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 1: Exited with exit code 2
+srun: error: rzmerl44: task 6: Exited with exit code 2
+srun: error: rzmerl33: task 3: Exited with exit code 2
+srun: error: rzmerl41: task 5: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=16
++ '[' 16 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_32_552575918
++ mkdir 2012_11_09_22_23_32_552575918
++ cd 2012_11_09_22_23_32_552575918
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_32_552575918
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_32_861646249
++ mkdir 2012_11_09_22_23_32_861646249
++ cd 2012_11_09_22_23_32_861646249
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_32_861646249
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_33_184115245
++ mkdir 2012_11_09_22_23_33_184115245
++ cd 2012_11_09_22_23_33_184115245
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_33_184115245
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl20: task 0: Exited with exit code 2
+srun: error: rzmerl28: task 2: Exited with exit code 2
+srun: error: rzmerl62: task 10: Exited with exit code 2
+srun: error: rzmerl33: task 3: Exited with exit code 2
+srun: error: rzmerl25: task 1: Exited with exit code 2
+srun: error: rzmerl64: task 11: Exited with exit code 2
+srun: error: rzmerl44: task 6: Exited with exit code 2
+srun: error: rzmerl41: task 5: Exited with exit code 2
+srun: error: rzmerl34: task 4: Exited with exit code 2
+srun: error: rzmerl47: task 7: Exited with exit code 2
+srun: error: rzmerl53: task 8: Exited with exit code 2
+srun: error: rzmerl67: task 12: Exited with exit code 2
+srun: error: rzmerl68: task 13: Exited with exit code 2
+srun: error: rzmerl58: task 9: Exited with exit code 2
+srun: error: rzmerl71: task 15: Exited with exit code 2
+srun: error: rzmerl69: task 14: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_33_485874260
++ mkdir 2012_11_09_22_23_33_485874260
++ cd 2012_11_09_22_23_33_485874260
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_33_485874260
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_33_826217264
++ mkdir 2012_11_09_22_23_33_826217264
++ cd 2012_11_09_22_23_33_826217264
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_33_826217264
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_34_166996717
++ mkdir 2012_11_09_22_23_34_166996717
++ cd 2012_11_09_22_23_34_166996717
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_34_166996717
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_34_467367895
++ mkdir 2012_11_09_22_23_34_467367895
++ cd 2012_11_09_22_23_34_467367895
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_34_467367895
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=32
++ '[' 32 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_34_776893495
++ mkdir 2012_11_09_22_23_34_776893495
++ cd 2012_11_09_22_23_34_776893495
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_34_776893495
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_35_117887766
++ mkdir 2012_11_09_22_23_35_117887766
++ cd 2012_11_09_22_23_35_117887766
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_35_117887766
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_35_458358179
++ mkdir 2012_11_09_22_23_35_458358179
++ cd 2012_11_09_22_23_35_458358179
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_35_458358179
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_35_787638081
++ mkdir 2012_11_09_22_23_35_787638081
++ cd 2012_11_09_22_23_35_787638081
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_35_787638081
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_36_133725151
++ mkdir 2012_11_09_22_23_36_133725151
++ cd 2012_11_09_22_23_36_133725151
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_36_133725151
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_36_487672465
++ mkdir 2012_11_09_22_23_36_487672465
++ cd 2012_11_09_22_23_36_487672465
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_36_487672465
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_36_787071209
++ mkdir 2012_11_09_22_23_36_787071209
++ cd 2012_11_09_22_23_36_787071209
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_36_787071209
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=64
++ '[' 64 -le 32 ']'
++ for pkg in 0x38198 0x038208 0x038280 0x0382f8
++ i=16
++ j=8
++ export MSR_PKG_POWER_LIMIT=0x0382f8
++ MSR_PKG_POWER_LIMIT=0x0382f8
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_37_158929988
++ mkdir 2012_11_09_22_23_37_158929988
++ cd 2012_11_09_22_23_37_158929988
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_37_158929988
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_37_456035710
++ mkdir 2012_11_09_22_23_37_456035710
++ cd 2012_11_09_22_23_37_456035710
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_37_456035710
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_37_794240835
++ mkdir 2012_11_09_22_23_37_794240835
++ cd 2012_11_09_22_23_37_794240835
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_37_794240835
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl33: task 3: Exited with exit code 2
+srun: error: rzmerl41: task 5: Exited with exit code 2
+srun: error: rzmerl34: task 4: Exited with exit code 2
+srun: error: rzmerl28: task 2: Exited with exit code 2
+srun: error: rzmerl25: task 1: Exited with exit code 2
+srun: error: rzmerl20: task 0: Exited with exit code 2
+srun: error: rzmerl47: task 7: Exited with exit code 2
+srun: error: rzmerl44: task 6: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_38_096305783
++ mkdir 2012_11_09_22_23_38_096305783
++ cd 2012_11_09_22_23_38_096305783
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_38_096305783
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl25: task 1: Exited with exit code 2
+srun: error: rzmerl20: task 0: Exited with exit code 2
+srun: error: rzmerl33: task 3: Exited with exit code 2
+srun: error: rzmerl28: task 2: Exited with exit code 2
+srun: error: rzmerl34: task 4: Exited with exit code 2
+srun: error: rzmerl41: task 5: Exited with exit code 2
+srun: error: rzmerl44: task 6: Exited with exit code 2
+srun: error: rzmerl47: task 7: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_38_367785584
++ mkdir 2012_11_09_22_23_38_367785584
++ cd 2012_11_09_22_23_38_367785584
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_38_367785584
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_38_693740839
++ mkdir 2012_11_09_22_23_38_693740839
++ cd 2012_11_09_22_23_38_693740839
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_38_693740839
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_39_030815548
++ mkdir 2012_11_09_22_23_39_030815548
++ cd 2012_11_09_22_23_39_030815548
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_39_030815548
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+srun: error: rzmerl28: task 2: Exited with exit code 2
+srun: error: rzmerl25: task 1: Exited with exit code 2
+srun: error: rzmerl20: task 0: Exited with exit code 2
+srun: error: rzmerl41: task 5: Exited with exit code 2
+srun: error: rzmerl44: task 6: Exited with exit code 2
+srun: error: rzmerl34: task 4: Exited with exit code 2
+srun: error: rzmerl47: task 7: Exited with exit code 2
+srun: error: rzmerl33: task 3: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=16
++ '[' 16 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_39_330121999
++ mkdir 2012_11_09_22_23_39_330121999
++ cd 2012_11_09_22_23_39_330121999
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_39_330121999
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_39_632062721
++ mkdir 2012_11_09_22_23_39_632062721
++ cd 2012_11_09_22_23_39_632062721
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_39_632062721
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_39_968971514
++ mkdir 2012_11_09_22_23_39_968971514
++ cd 2012_11_09_22_23_39_968971514
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_39_968971514
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_40_277040796
++ mkdir 2012_11_09_22_23_40_277040796
++ cd 2012_11_09_22_23_40_277040796
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_40_277040796
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_40_613055503
++ mkdir 2012_11_09_22_23_40_613055503
++ cd 2012_11_09_22_23_40_613055503
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_40_613055503
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_40_955402816
++ mkdir 2012_11_09_22_23_40_955402816
++ cd 2012_11_09_22_23_40_955402816
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_40_955402816
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl28: task 2: Exited with exit code 2
+srun: error: rzmerl33: task 3: Exited with exit code 2
+srun: error: rzmerl44: task 6: Exited with exit code 2
+srun: error: rzmerl68: task 13: Exited with exit code 2
+srun: error: rzmerl25: task 1: Exited with exit code 2
+srun: error: rzmerl20: task 0: Exited with exit code 2
+srun: error: rzmerl71: task 15: Exited with exit code 2
+srun: error: rzmerl47: task 7: Exited with exit code 2
+srun: error: rzmerl53: task 8: Exited with exit code 2
+srun: error: rzmerl34: task 4: Exited with exit code 2
+srun: error: rzmerl64: task 11: Exited with exit code 2
+srun: error: rzmerl58: task 9: Exited with exit code 2
+srun: error: rzmerl41: task 5: Exited with exit code 2
+srun: error: rzmerl62: task 10: Exited with exit code 2
+srun: error: rzmerl67: task 12: Exited with exit code 2
+srun: error: rzmerl69: task 14: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_41_246087528
++ mkdir 2012_11_09_22_23_41_246087528
++ cd 2012_11_09_22_23_41_246087528
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_41_246087528
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+srun: error: rzmerl44: task 6: Exited with exit code 2
+srun: error: rzmerl33: task 3: Exited with exit code 2
+srun: error: rzmerl41: task 5: Exited with exit code 2
+srun: error: rzmerl34: task 4: Exited with exit code 2
+srun: error: rzmerl20: task 0: Exited with exit code 2
+srun: error: rzmerl62: task 10: Exited with exit code 2
+srun: error: rzmerl28: task 2: Exited with exit code 2
+srun: error: rzmerl69: task 14: Exited with exit code 2
+srun: error: rzmerl25: task 1: Exited with exit code 2
+srun: error: rzmerl53: task 8: Exited with exit code 2
+srun: error: rzmerl64: task 11: Exited with exit code 2
+srun: error: rzmerl68: task 13: Exited with exit code 2
+srun: error: rzmerl67: task 12: Exited with exit code 2
+srun: error: rzmerl71: task 15: Exited with exit code 2
+srun: error: rzmerl58: task 9: Exited with exit code 2
+srun: error: rzmerl47: task 7: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=32
++ '[' 32 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_41_527026490
++ mkdir 2012_11_09_22_23_41_527026490
++ cd 2012_11_09_22_23_41_527026490
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_41_527026490
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_41_846978111
++ mkdir 2012_11_09_22_23_41_846978111
++ cd 2012_11_09_22_23_41_846978111
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_41_846978111
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_42_164577128
++ mkdir 2012_11_09_22_23_42_164577128
++ cd 2012_11_09_22_23_42_164577128
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_42_164577128
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_42_443745024
++ mkdir 2012_11_09_22_23_42_443745024
++ cd 2012_11_09_22_23_42_443745024
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_42_443745024
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_42_801017248
++ mkdir 2012_11_09_22_23_42_801017248
++ cd 2012_11_09_22_23_42_801017248
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_42_801017248
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_43_141468930
++ mkdir 2012_11_09_22_23_43_141468930
++ cd 2012_11_09_22_23_43_141468930
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_43_141468930
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_09_22_23_43_472030033
++ mkdir 2012_11_09_22_23_43_472030033
++ cd 2012_11_09_22_23_43_472030033
++ touch out.dat
++ env
++ echo 2012_11_09_22_23_43_472030033
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ cp ../../opac.txt .
+cp: cannot stat `../../opac.txt': No such file or directory
++ cp ../../input.dat .
+cp: cannot stat `../../input.dat': No such file or directory
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+srun: error: rzmerl28: task 3: Exited with exit code 2
+srun: error: rzmerl20: task 1: Exited with exit code 2
+srun: error: rzmerl18: task 0: Exited with exit code 2
+srun: error: rzmerl41: task 6: Exited with exit code 2
+srun: error: rzmerl53: task 9: Exited with exit code 2
+srun: error: rzmerl25: task 2: Exited with exit code 2
+srun: error: rzmerl67: task 13: Exited with exit code 2
+srun: error: rzmerl71: task 16: Exited with exit code 2
+srun: error: rzmerl33: task 4: Exited with exit code 2
+srun: error: rzmerl47: task 8: Exited with exit code 2
+srun: error: rzmerl69: task 15: Exited with exit code 2
+srun: error: rzmerl34: task 5: Exited with exit code 2
+srun: error: rzmerl64: task 12: Exited with exit code 2
+srun: error: rzmerl62: task 11: Exited with exit code 2
+srun: error: rzmerl44: task 7: Exited with exit code 2
+srun: error: rzmerl68: task 14: Exited with exit code 2
+srun: error: rzmerl90: task 20: Exited with exit code 2
+srun: error: rzmerl154: task 31: Exited with exit code 2
+srun: error: rzmerl58: task 10: Exited with exit code 2
+srun: error: rzmerl132: task 28: Exited with exit code 2
+srun: error: rzmerl103: task 23: Exited with exit code 2
+srun: error: rzmerl109: task 25: Exited with exit code 2
+srun: error: rzmerl144: task 30: Exited with exit code 2
+srun: error: rzmerl86: task 18: Exited with exit code 2
+srun: error: rzmerl138: task 29: Exited with exit code 2
+srun: error: rzmerl87: task 19: Exited with exit code 2
+srun: error: rzmerl96: task 21: Exited with exit code 2
+srun: error: rzmerl101: task 22: Exited with exit code 2
+srun: error: rzmerl107: task 24: Exited with exit code 2
+srun: error: rzmerl126: task 27: Exited with exit code 2
+srun: error: rzmerl85: task 17: Exited with exit code 2
+srun: error: rzmerl122: task 26: Exited with exit code 2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=64
++ '[' 64 -le 32 ']'
