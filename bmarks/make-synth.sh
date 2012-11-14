@@ -25,8 +25,8 @@ echo $PATH_LIBMSR
 #make clean && make
 
 cd synthetic/no-scale-cpu
-make clean && make
+make clean && make -j8
 
 cd ../scale-cpu
-make clean && make
+make clean && make -j8
 

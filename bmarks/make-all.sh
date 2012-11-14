@@ -9,10 +9,10 @@ echo $PATH_LIBMSR
 
 cd librapl/libmsr
 mkdir -p lib
-make clean && make 
+make clean && make -j8 
 
 cd mpi
-make clean && make rapl-gnu
+make clean && make -j8 rapl-icc 
 
 #cd ../../../lulesh-oct30
 #make clean && make
@@ -25,7 +25,7 @@ make clean && make rapl-gnu
 #make clean && make
 
 cd ../../../sphot
-make clean && make
+make clean && make -j8
 
 cd ../NAS-MZ
 make clean 
