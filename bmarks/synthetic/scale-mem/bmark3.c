@@ -9,11 +9,11 @@
 
 
 //Large is 2^32 atm
-#define LARGE 42949672960
-#define ITERS 4
+//#define LARGE 42949672960
+#define LARGE 8192
+#define ITERS 100
 //Should probably be (LLC_SZ)/(#cores)
-//Right now 20MB/32
-#define FIXED_SZ 512
+#define FIXED_SZ 8
 
 
 int main(int argc, char * argv[]){
@@ -25,6 +25,7 @@ int main(int argc, char * argv[]){
 	unsigned long i,j;
 	double start, end;
 	int t;
+	unsigned long *arr1,*arr2;
 
 	MPI_Init(&argc, &argv);
 
@@ -38,6 +39,13 @@ int main(int argc, char * argv[]){
 		printf("\nEach chunk is: %ld", mychunk);
 		printf("\nIterations: %d", ITERS);
 		printf("\nNodes: %d", numnodes);
+		#pragma omp parallel 
+		{
+			t=omp_get_num_threads();
+			printf("\nThreads: %d \t", t);
+			printf("Thread chunk is: %d", mychunk/t);
+		}	
+
 	}
 
 	start=MPI_Wtime();
@@ -45,20 +53,20 @@ int main(int argc, char * argv[]){
 //	MPI_Bcast(&mychunk, 1, MPI_UNSIGNED_LONG, root, MPI_COMM_WORLD);
 
 	for(it=0;it<ITERS;it++){
-	 #pragma omp parallel for private(i)
+	 #pragma omp parallel for private(i,arr1,arr2)
                  for(i=0; i<mychunk; i++){
 			//Need to do something memory intensive. Lets just copy one array into another
 			//in reverse order. 
 			//
-			unsigned long *arr1 = (unsigned long *) malloc(FIXED_SZ * sizeof(unsigned long));
-			unsigned long *arr2 = (unsigned long *) malloc(FIXED_SZ * sizeof(unsigned long));
+			arr1 = (unsigned long *) malloc(FIXED_SZ * sizeof(unsigned long));
+			arr2 = (unsigned long *) malloc(FIXED_SZ * sizeof(unsigned long));
 			
 			for(j=0; j<FIXED_SZ; j++){	
 				arr1[j] = j;
-			}
+			//}
 			
-			//copy
-			for(j=0;j<FIXED_SZ; j++){
+			////copy
+			//for(j=0;j<FIXED_SZ; j++){
 				arr2[j] = arr1[(FIXED_SZ-1) -j];
 			}
 
@@ -70,7 +78,7 @@ int main(int argc, char * argv[]){
 		
 	end=MPI_Wtime();
 
-	printf("\nTime is: %lf secs\n", end-start);
+	printf("\nTime is rank %d: %lf secs\n", myrank, end-start);
 
 	MPI_Finalize();
 
