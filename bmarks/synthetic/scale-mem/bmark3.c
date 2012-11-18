@@ -63,10 +63,6 @@ int main(int argc, char * argv[]){
 			
 			for(j=0; j<FIXED_SZ; j++){	
 				arr1[j] = j;
-			//}
-			
-			////copy
-			//for(j=0;j<FIXED_SZ; j++){
 				arr2[j] = arr1[(FIXED_SZ-1) -j];
 			}
 

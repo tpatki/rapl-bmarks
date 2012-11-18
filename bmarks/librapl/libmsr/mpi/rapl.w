@@ -27,6 +27,7 @@ static struct rapl_state_s temp;
 
 static int msr_rank_mod=-1;
 static int sample = 0; 
+static int intercept = 0; 
 
 
 {{fn foo MPI_Init}}
@@ -47,6 +48,11 @@ static int sample = 0;
 		printf("Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.\n"); 
 	}
 
+	retVal = get_env_int("FUNC_INTERCEPT", &intercept);
+
+	if(retVal == -1){
+		printf("Default: Intercepting MPI functions to gather samples is turned off.\n"); 
+	}
 
 	if(rank%msr_rank_mod == 0){
 		gethostname(hostname, 1024 );
@@ -56,17 +62,20 @@ static int sample = 0;
 	//	register_sig();
 		//TP
 		rs2 = rapl_init(filetag); 
-		//Initialization to record the first tick
-		rs3 = &temp;
-		sprintf(barrierFile, "fSmpl_%s_%d", hostname, rank);
-		sprintf(funcFile, "fName_%s_%d", hostname, rank);
-		
-        	f2 = fopen(funcFile, "a");
-		fprintf(f2, "Name\n");
-		fclose(f2);
-	
-		rapl_tick(rs3, barrierFile);	
 
+		if(intercept == 1){
+			printf("\nFUNC_INTERCEPT = 1\n");
+			//Initialization to record the first tick
+			rs3 = &temp;
+			sprintf(barrierFile, "fSmpl_%s_%d", hostname, rank);
+			sprintf(funcFile, "fName_%s_%d", hostname, rank);
+		
+	        	f2 = fopen(funcFile, "a");
+			fprintf(f2, "Name\n");
+			fclose(f2);
+	
+			rapl_tick(rs3, barrierFile);	
+		}
 
 		if(sample == 1) {
 			printf("\nSAMPLE=1\n");
@@ -81,12 +90,11 @@ static int sample = 0;
 
 {{fnall foo MPI_Init MPI_Finalize}} {
   {{callfn}}
-  if(rank % msr_rank_mod ==0){
+  if((rank % msr_rank_mod ==0) && intercept==1){
         f2 = fopen(funcFile, "a");
 	fprintf(f2, "%s\n", __FUNCTION__);
 	fclose(f2);
 	rapl_tick(rs3, barrierFile);
-
 	}
 }
 {{endfnall}}
