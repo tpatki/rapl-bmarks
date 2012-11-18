@@ -30,7 +30,7 @@ t=0
 #do
 
 export TURBO_ENABLE=1
-
+export FUNC_INTERCEPT=1
 #unbounded measurement
 export READ_WRITE=0
 export READ_ONLY=1
@@ -54,7 +54,7 @@ j=8
                 srun --nodes=1 --ntasks=1 -o host_info hostname
                 echo 'threads/node: '$i >> info
                 echo 'nodes: ' $j >> info
-                echo 'turbo: ' $t >> info
+                echo 'turbo: 1 '>> info
 
   		cp ../../opac.txt .
 	        cp ../../input.dat .
@@ -76,6 +76,7 @@ j=8
 #51, 65, 80 and 95W. Smallest time window.
 
 export TURBO_ENABLE=0
+export FUNC_INTERCEPT=0
 export READ_WRITE=1
 export READ_ONLY=0
 
@@ -101,7 +102,7 @@ export MSR_PKG_POWER_LIMIT=${pkg}
 		srun --nodes=1 --ntasks=1 -o host_info hostname
 		echo 'threads/node: '$i >> info
 		echo 'nodes: ' $j >> info
-                echo 'turbo: ' $t >> info
+                echo 'turbo: 0'  >> info
 
 		cp ../../opac.txt .
                 cp ../../input.dat .
