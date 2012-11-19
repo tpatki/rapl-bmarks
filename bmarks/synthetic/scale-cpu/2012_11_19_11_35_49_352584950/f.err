@@ -1,0 +1,8 @@
+slurmd[rzmerl25]: execve(): ../../bmark1: No such file or directory
+slurmd[rzmerl32]: execve(): ../../bmark1: No such file or directory
+slurmd[rzmerl21]: execve(): ../../bmark1: No such file or directory
+slurmd[rzmerl22]: execve(): ../../bmark1: No such file or directory
+slurmd[rzmerl19]: execve(): ../../bmark1: No such file or directory
+slurmd[rzmerl30]: execve(): ../../bmark1: No such file or directory
+slurmd[rzmerl42]: execve(): ../../bmark1: No such file or directory
+slurmd[rzmerl35]: execve(): ../../bmark1: No such file or directory

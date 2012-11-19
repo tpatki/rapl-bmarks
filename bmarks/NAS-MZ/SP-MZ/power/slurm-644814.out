@@ -1,0 +1,634 @@
++ i=16
++ minthreads=4
++ j=8
++ maxnodes=32
++ export PKG_MINW_MINS=0x38198
++ PKG_MINW_MINS=0x38198
++ export PP0_MINW_MINS=0x38198
++ PP0_MINW_MINS=0x38198
++ export DRAM_MINW_MINS=0x38078
++ DRAM_MINW_MINS=0x38078
++ export MSR_PKG_POWER_LIMIT=0x0
++ MSR_PKG_POWER_LIMIT=0x0
++ export MSR_PP0_POWER_LIMIT=0x0
++ MSR_PP0_POWER_LIMIT=0x0
++ export MSR_DRAM_POWER_LIMIT=0x0
++ MSR_DRAM_POWER_LIMIT=0x0
++ export MSR_RANK_MOD=1
++ MSR_RANK_MOD=1
++ export SAMPLE=1
++ SAMPLE=1
++ t=0
++ export TURBO_ENABLE=1
++ TURBO_ENABLE=1
++ export FUNC_INTERCEPT=1
++ FUNC_INTERCEPT=1
++ export READ_WRITE=0
++ READ_WRITE=0
++ export READ_ONLY=1
++ READ_ONLY=1
++ i=16
++ j=8
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_33_48_410959141
++ mkdir 2012_11_19_11_33_48_410959141
++ cd 2012_11_19_11_33_48_410959141
++ touch out.dat
++ env
++ echo 2012_11_19_11_33_48_410959141
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo: 1 '
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../../bin/sp-mz.C.8
+srun: error: rzmerl18: task 0: Exited with exit code 174
+srun: error: rzmerl23: task 2: Exited with exit code 174
+srun: error: rzmerl28: task 3: Exited with exit code 174
+srun: error: rzmerl20: task 1: Exited with exit code 174
+srun: First task exited 30s ago
+srun: tasks 4-7: running
+srun: tasks 0-3: exited abnormally
+srun: Terminating job step 644814.2
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_34_24_692069423
++ mkdir 2012_11_19_11_34_24_692069423
++ cd 2012_11_19_11_34_24_692069423
++ touch out.dat
++ env
++ echo 2012_11_19_11_34_24_692069423
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo: 1 '
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../../bin/sp-mz.C.8
+srun: error: rzmerl18: task 0: Exited with exit code 174
+srun: error: rzmerl23: task 2: Exited with exit code 174
+srun: error: rzmerl28: task 3: Exited with exit code 174
+srun: error: rzmerl20: task 1: Exited with exit code 174
+srun: First task exited 30s ago
+srun: tasks 4-7: running
+srun: tasks 0-3: exited abnormally
+srun: Terminating job step 644814.5
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_34_59_208615692
++ mkdir 2012_11_19_11_34_59_208615692
++ cd 2012_11_19_11_34_59_208615692
++ touch out.dat
++ env
++ echo 2012_11_19_11_34_59_208615692
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo: 1 '
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../../bin/sp-mz.C.8
+srun: error: rzmerl23: task 2: Exited with exit code 174
+srun: error: rzmerl18: task 0: Exited with exit code 174
+srun: error: rzmerl28: task 3: Exited with exit code 174
+srun: error: rzmerl20: task 1: Exited with exit code 174
+srun: First task exited 30s ago
+srun: tasks 4-7: running
+srun: tasks 0-3: exited abnormally
+srun: Terminating job step 644814.8
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_35_33_727919953
++ mkdir 2012_11_19_11_35_33_727919953
++ cd 2012_11_19_11_35_33_727919953
++ touch out.dat
++ env
++ echo 2012_11_19_11_35_33_727919953
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo: 1 '
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../../bin/sp-mz.C.8
+srun: error: rzmerl23: task 2: Exited with exit code 174
+srun: error: rzmerl18: task 0: Exited with exit code 174
+srun: error: rzmerl28: task 3: Exited with exit code 174
+srun: error: rzmerl20: task 1: Exited with exit code 174
+srun: First task exited 30s ago
+srun: tasks 4-7: running
+srun: tasks 0-3: exited abnormally
+srun: Terminating job step 644814.11
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_36_07_082243879
++ mkdir 2012_11_19_11_36_07_082243879
++ cd 2012_11_19_11_36_07_082243879
++ touch out.dat
++ env
++ echo 2012_11_19_11_36_07_082243879
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo: 1 '
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../../bin/sp-mz.C.8
+srun: error: rzmerl18: task 0: Exited with exit code 174
+srun: error: rzmerl23: task 2: Exited with exit code 174
+srun: error: rzmerl28: task 3: Exited with exit code 174
+srun: error: rzmerl20: task 1: Exited with exit code 174
+srun: First task exited 30s ago
+srun: tasks 4-7: running
+srun: tasks 0-3: exited abnormally
+srun: Terminating job step 644814.14
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_36_41_125861141
++ mkdir 2012_11_19_11_36_41_125861141
++ cd 2012_11_19_11_36_41_125861141
++ touch out.dat
++ env
++ echo 2012_11_19_11_36_41_125861141
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo: 1 '
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../../bin/sp-mz.C.8
+srun: error: rzmerl18: task 0: Exited with exit code 174
+srun: error: rzmerl23: task 2: Exited with exit code 174
+srun: error: rzmerl20: task 1: Exited with exit code 174
+srun: error: rzmerl28: task 3: Exited with exit code 174
+srun: First task exited 30s ago
+srun: tasks 4-7: running
+srun: tasks 0-3: exited abnormally
+srun: Terminating job step 644814.17
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_37_14_824683490
++ mkdir 2012_11_19_11_37_14_824683490
++ cd 2012_11_19_11_37_14_824683490
++ touch out.dat
++ env
++ echo 2012_11_19_11_37_14_824683490
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo: 1 '
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../../../bin/sp-mz.C.8
+srun: error: rzmerl23: task 2: Exited with exit code 174
+srun: error: rzmerl18: task 0: Exited with exit code 174
+srun: error: rzmerl28: task 3: Exited with exit code 174
+srun: error: rzmerl20: task 1: Exited with exit code 174
+srun: First task exited 30s ago
+srun: tasks 4-7: running
+srun: tasks 0-3: exited abnormally
+srun: Terminating job step 644814.20
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=16
++ '[' 16 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_37_48_862883114
++ mkdir 2012_11_19_11_37_48_862883114
++ cd 2012_11_19_11_37_48_862883114
++ touch out.dat
++ env
++ echo 2012_11_19_11_37_48_862883114
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 16
++ echo 'turbo: 1 '
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../../bin/sp-mz.C.16
+srun: error: rzmerl23: task 2: Exited with exit code 174
+srun: error: rzmerl62: task 15: Exited with exit code 174
+srun: error: rzmerl33: task 4: Exited with exit code 174
+srun: error: rzmerl18: task 0: Bus error (core dumped)
+srun: error: rzmerl40: task 8: Bus error (core dumped)
+srun: error: rzmerl28: task 3: Bus error (core dumped)
+srun: error: rzmerl58: task 14: Bus error (core dumped)
+srun: error: rzmerl34: task 5: Bus error (core dumped)
+srun: error: rzmerl44: task 10: Bus error (core dumped)
+srun: error: rzmerl43: task 9: Bus error (core dumped)
+srun: error: rzmerl48: task 11: Bus error (core dumped)
+srun: error: rzmerl38: task 7: Bus error (core dumped)
+srun: error: rzmerl20: task 1: Bus error (core dumped)
+srun: error: rzmerl51: task 12: Bus error (core dumped)
+srun: error: rzmerl53: task 13: Bus error (core dumped)
+srun: error: rzmerl37: task 6: Bus error (core dumped)
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_37_54_751213386
++ mkdir 2012_11_19_11_37_54_751213386
++ cd 2012_11_19_11_37_54_751213386
++ touch out.dat
++ env
++ echo 2012_11_19_11_37_54_751213386
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 16
++ echo 'turbo: 1 '
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../../bin/sp-mz.C.16
+srun: error: rzmerl53: task 12: Exited with exit code 174
+srun: error: rzmerl33: task 3: Bus error (core dumped)
+srun: error: rzmerl58: task 13: Bus error (core dumped)
+srun: error: rzmerl37: task 5: Bus error (core dumped)
+srun: error: rzmerl64: task 15: Bus error (core dumped)
+srun: error: rzmerl23: task 1: Bus error (core dumped)
+srun: error: rzmerl20: task 0: Bus error (core dumped)
+srun: error: rzmerl43: task 8: Bus error (core dumped)
+srun: error: rzmerl28: task 2: Bus error (core dumped)
+srun: error: rzmerl44: task 9: Bus error (core dumped)
+srun: error: rzmerl62: task 14: Bus error (core dumped)
+srun: error: rzmerl38: task 6: Bus error (core dumped)
+srun: error: rzmerl40: task 7: Bus error (core dumped)
+srun: error: rzmerl48: task 10: Bus error (core dumped)
+srun: error: rzmerl51: task 11: Bus error (core dumped)
+srun: error: rzmerl34: task 4: Bus error (core dumped)
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_38_01_003715640
++ mkdir 2012_11_19_11_38_01_003715640
++ cd 2012_11_19_11_38_01_003715640
++ touch out.dat
++ env
++ echo 2012_11_19_11_38_01_003715640
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 16
++ echo 'turbo: 1 '
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../../bin/sp-mz.C.16
+srun: error: rzmerl51: task 12: Bus error (core dumped)
+srun: error: rzmerl44: task 10: Bus error (core dumped)
+srun: error: rzmerl58: task 14: Bus error (core dumped)
+srun: error: rzmerl18: task 0: Bus error (core dumped)
+srun: error: rzmerl23: task 2: Bus error (core dumped)
+srun: error: rzmerl62: task 15: Bus error (core dumped)
+srun: error: rzmerl40: task 8: Bus error (core dumped)
+srun: error: rzmerl48: task 11: Bus error (core dumped)
+srun: error: rzmerl28: task 3: Bus error (core dumped)
+srun: error: rzmerl43: task 9: Bus error (core dumped)
+srun: error: rzmerl38: task 7: Bus error (core dumped)
+srun: error: rzmerl37: task 6: Bus error (core dumped)
+srun: error: rzmerl53: task 13: Bus error (core dumped)
+srun: error: rzmerl33: task 4: Bus error (core dumped)
+srun: error: rzmerl20: task 1: Bus error (core dumped)
+srun: error: rzmerl34: task 5: Bus error (core dumped)
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_38_05_047800459
++ mkdir 2012_11_19_11_38_05_047800459
++ cd 2012_11_19_11_38_05_047800459
++ touch out.dat
++ env
++ echo 2012_11_19_11_38_05_047800459
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 16
++ echo 'turbo: 1 '
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../../bin/sp-mz.C.16
+srun: error: rzmerl34: task 5: Bus error (core dumped)
+srun: error: rzmerl51: task 12: Bus error (core dumped)
+srun: error: rzmerl44: task 10: Bus error (core dumped)
+srun: error: rzmerl53: task 13: Bus error (core dumped)
+srun: error: rzmerl48: task 11: Bus error (core dumped)
+srun: error: rzmerl62: task 15: Bus error (core dumped)
+srun: error: rzmerl28: task 3: Bus error (core dumped)
+srun: error: rzmerl38: task 7: Bus error (core dumped)
+srun: error: rzmerl58: task 14: Bus error (core dumped)
+srun: error: rzmerl23: task 2: Bus error (core dumped)
+srun: error: rzmerl40: task 8: Bus error (core dumped)
+srun: error: rzmerl18: task 0: Bus error (core dumped)
+srun: error: rzmerl37: task 6: Bus error (core dumped)
+srun: error: rzmerl20: task 1: Bus error (core dumped)
+srun: error: rzmerl33: task 4: Bus error (core dumped)
+srun: error: rzmerl43: task 9: Bus error (core dumped)
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_38_08_960829240
++ mkdir 2012_11_19_11_38_08_960829240
++ cd 2012_11_19_11_38_08_960829240
++ touch out.dat
++ env
++ echo 2012_11_19_11_38_08_960829240
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 16
++ echo 'turbo: 1 '
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../../bin/sp-mz.C.16
+srun: error: rzmerl44: task 10: Bus error (core dumped)
+srun: error: rzmerl40: task 8: Bus error (core dumped)
+srun: error: rzmerl23: task 2: Bus error (core dumped)
+srun: error: rzmerl51: task 12: Bus error (core dumped)
+srun: error: rzmerl48: task 11: Bus error (core dumped)
+srun: error: rzmerl34: task 5: Bus error (core dumped)
+srun: error: rzmerl18: task 0: Bus error (core dumped)
+srun: error: rzmerl20: task 1: Bus error (core dumped)
+srun: error: rzmerl37: task 6: Bus error (core dumped)
+srun: error: rzmerl33: task 4: Bus error (core dumped)
+srun: error: rzmerl43: task 9: Bus error (core dumped)
+srun: error: rzmerl58: task 14: Bus error (core dumped)
+srun: error: rzmerl28: task 3: Bus error (core dumped)
+srun: error: rzmerl53: task 13: Bus error (core dumped)
+srun: error: rzmerl38: task 7: Bus error (core dumped)
+srun: error: rzmerl62: task 15: Bus error (core dumped)
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_38_13_024533504
++ mkdir 2012_11_19_11_38_13_024533504
++ cd 2012_11_19_11_38_13_024533504
++ touch out.dat
++ env
++ echo 2012_11_19_11_38_13_024533504
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 16
++ echo 'turbo: 1 '
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../../bin/sp-mz.C.16
+srun: error: rzmerl38: task 7: Bus error (core dumped)
+srun: error: rzmerl37: task 6: Bus error (core dumped)
+srun: error: rzmerl23: task 2: Bus error (core dumped)
+srun: error: rzmerl44: task 10: Bus error (core dumped)
+srun: error: rzmerl18: task 0: Bus error (core dumped)
+srun: error: rzmerl62: task 15: Bus error (core dumped)
+srun: error: rzmerl43: task 9: Bus error (core dumped)
+srun: error: rzmerl34: task 5: Bus error (core dumped)
+srun: error: rzmerl48: task 11: Bus error (core dumped)
+srun: error: rzmerl40: task 8: Bus error (core dumped)
+srun: error: rzmerl58: task 14: Bus error (core dumped)
+srun: error: rzmerl33: task 4: Bus error (core dumped)
+srun: error: rzmerl20: task 1: Bus error (core dumped)
+srun: error: rzmerl28: task 3: Bus error (core dumped)
+srun: error: rzmerl53: task 13: Bus error (core dumped)
+srun: error: rzmerl51: task 12: Bus error (core dumped)
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_38_17_118696797
++ mkdir 2012_11_19_11_38_17_118696797
++ cd 2012_11_19_11_38_17_118696797
++ touch out.dat
++ env
++ echo 2012_11_19_11_38_17_118696797
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 16
++ echo 'turbo: 1 '
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../../../bin/sp-mz.C.16
+srun: error: rzmerl43: task 9: Bus error (core dumped)
+srun: error: rzmerl23: task 2: Bus error (core dumped)
+srun: error: rzmerl62: task 15: Bus error (core dumped)
+srun: error: rzmerl28: task 3: Bus error (core dumped)
+srun: error: rzmerl48: task 11: Bus error (core dumped)
+srun: error: rzmerl40: task 8: Bus error (core dumped)
+srun: error: rzmerl37: task 6: Bus error (core dumped)
+srun: error: rzmerl33: task 4: Bus error (core dumped)
+srun: error: rzmerl51: task 12: Bus error (core dumped)
+srun: error: rzmerl38: task 7: Bus error (core dumped)
+srun: error: rzmerl18: task 0: Bus error (core dumped)
+srun: error: rzmerl20: task 1: Bus error (core dumped)
+srun: error: rzmerl53: task 13: Bus error (core dumped)
+srun: error: rzmerl44: task 10: Bus error (core dumped)
+srun: error: rzmerl58: task 14: Bus error (core dumped)
+srun: error: rzmerl34: task 5: Bus error (core dumped)
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=32
++ '[' 32 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_38_21_537880300
++ mkdir 2012_11_19_11_38_21_537880300
++ cd 2012_11_19_11_38_21_537880300
++ touch out.dat
++ env
++ echo 2012_11_19_11_38_21_537880300
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 32
++ echo 'turbo: 1 '
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../../bin/sp-mz.C.32
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_38_49_948689107
++ mkdir 2012_11_19_11_38_49_948689107
++ cd 2012_11_19_11_38_49_948689107
++ touch out.dat
++ env
++ echo 2012_11_19_11_38_49_948689107
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 32
++ echo 'turbo: 1 '
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../../bin/sp-mz.C.32
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_39_11_449677305
++ mkdir 2012_11_19_11_39_11_449677305
++ cd 2012_11_19_11_39_11_449677305
++ touch out.dat
++ env
++ echo 2012_11_19_11_39_11_449677305
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 32
++ echo 'turbo: 1 '
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../../bin/sp-mz.C.32
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_39_35_886944057
++ mkdir 2012_11_19_11_39_35_886944057
++ cd 2012_11_19_11_39_35_886944057
++ touch out.dat
++ env
++ echo 2012_11_19_11_39_35_886944057
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 32
++ echo 'turbo: 1 '
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../../bin/sp-mz.C.32
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_40_01_071966633
++ mkdir 2012_11_19_11_40_01_071966633
++ cd 2012_11_19_11_40_01_071966633
++ touch out.dat
++ env
++ echo 2012_11_19_11_40_01_071966633
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 32
++ echo 'turbo: 1 '
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../../bin/sp-mz.C.32
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_40_25_601452525
++ mkdir 2012_11_19_11_40_25_601452525
++ cd 2012_11_19_11_40_25_601452525
++ touch out.dat
++ env
++ echo 2012_11_19_11_40_25_601452525
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 32
++ echo 'turbo: 1 '
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../../bin/sp-mz.C.32
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2012_11_19_11_40_52_218971241
++ mkdir 2012_11_19_11_40_52_218971241
++ cd 2012_11_19_11_40_52_218971241
++ touch out.dat
++ env
++ echo 2012_11_19_11_40_52_218971241
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 32
++ echo 'turbo: 1 '
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../../../bin/sp-mz.C.32
