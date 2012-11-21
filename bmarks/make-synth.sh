@@ -24,9 +24,11 @@ echo $PATH_LIBMSR
 #cd lulesh
 #make clean && make
 
-cd synthetic/no-scale-cpu
+cd synthetic/scale-mem
 make clean && make -j8
 
-cd ../scale-cpu
+cd ../no-scale-mem
 make clean && make -j8
 
+cd ../turbo-tests
+make clean && make -j8

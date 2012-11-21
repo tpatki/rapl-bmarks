@@ -29,7 +29,7 @@ while [ $i -ge $min ]
 do
 	export OMP_NUM_THREADS=$i
 
-	srun --nodes=1 --ntasks=1 -o test-$i.out -e f-$i.err ./bmark1
+	srun --nodes=1 --ntasks=1 -o test-$i -e err-$i ./bmark1
 
 	i=$(($i-1))
 done
