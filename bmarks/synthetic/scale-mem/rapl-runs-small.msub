@@ -55,7 +55,7 @@ j=8
                 echo 'nodes: ' $j >> info
                 echo 'turbo: ' $t >> info
 
-                srun --nodes=$j --ntasks=$j -o out.dat -e f.err ../../bmark1
+                srun --nodes=$j --ntasks=$j -o out.dat -e f.err ../../bmark3
 
                 cd ../
 
@@ -97,7 +97,7 @@ export MSR_PKG_POWER_LIMIT=${pkg}
 		echo 'nodes: ' $j >> info
                 echo 'turbo: ' $t >> info
 
-		srun --nodes=$j --ntasks=$j -o out.dat -e f.err ../../bmark1
+		srun --nodes=$j --ntasks=$j -o out.dat -e f.err ../../bmark3
 
 		cd ../
 

@@ -1,35 +1,35 @@
 #!/bin/bash
-#MSUB -lpartition=cab
-#MSUB -A asccasc
+#MSUB -lpartition=rzmerl
+#MSUB -A lc
 #MSUB -l nodes=1
 #MSUB -q pbatch
 #MSUB -m abe
-#MSUB -M tpatki@email.arizona.edu
+#MSUB -M rountree4@llnl.gov,tpatki@email.arizona.edu
 #MSUB -l walltime=01:45:00
 
-export OMP_NUM_THREADS=16
-srun --nodes=1 --ntasks=1 -o test1.out ./bmark1
+i=16
+min=1
 
-export OMP_NUM_THREADS=14
-srun --nodes=1 --ntasks=1 -o test2.out ./bmark1
+export PKG_MINW_MINS=0x38198
+export PP0_MINW_MINS=0x38198
+export DRAM_MINW_MINS=0x38078
+export MSR_PKG_POWER_LIMIT=0x0
+export MSR_PP0_POWER_LIMIT=0x0
+export MSR_DRAM_POWER_LIMIT=0x0
+export MSR_RANK_MOD=1 #One task per node, the rest are threads
+export SAMPLE=1
+export TURBO_ENABLE=1
+export FUNC_INTERCEPT=1
+#unbounded measurement
+export READ_WRITE=0
+export READ_ONLY=1
 
-export OMP_NUM_THREADS=12
-srun --nodes=1 --ntasks=1 -o test3.out ./bmark1
 
-export OMP_NUM_THREADS=10
-srun --nodes=1 --ntasks=1 -o test4.out ./bmark1
+while [ $i -ge $min ]
+do
+	export OMP_NUM_THREADS=$i
 
-export OMP_NUM_THREADS=8
-srun --nodes=1 --ntasks=1 -o test5.out ./bmark1
+	srun --nodes=1 --ntasks=1 -o test-$i.out -e f-$i.err ./bmark1
 
-export OMP_NUM_THREADS=6
-srun --nodes=1 --ntasks=1 -o test6.out ./bmark1
-
-export OMP_NUM_THREADS=4
-srun --nodes=1 --ntasks=1 -o test7.out ./bmark1
-
-export OMP_NUM_THREADS=2
-srun --nodes=1 --ntasks=1 -o test8.out ./bmark1
-
-export OMP_NUM_THREADS=1
-srun --nodes=1 --ntasks=1 -o test9.out ./bmark1
+	i=$(($i-1))
+done
