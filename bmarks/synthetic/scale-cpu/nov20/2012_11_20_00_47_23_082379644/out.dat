@@ -1,0 +1,91 @@
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+In sampleAsync: 
+Each chunk is: 5368709120
+Iterations: 20
+In sampleAsync: 
+Time is: 57.994912 secs
+In sampleAsync: 
+Time is: 58.294306 secs
+In sampleAsync: 
+Time is: 58.391981 secs
+In sampleAsync: 
+Time is: 58.417320 secs
+Nodes: 8
+Time is: 58.475366 secs
+In sampleAsync: 
+Time is: 58.673289 secs
+In sampleAsync: 
+Time is: 58.882513 secs
+In sampleAsync: 
+Time is: 58.914966 secs

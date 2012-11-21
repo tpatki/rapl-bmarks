@@ -1,0 +1,94 @@
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+SAMPLE=1
+
+SAMPLE=1
+
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+SAMPLE=1
+
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+In sampleAsync: 
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - SP-MZ MPI+OpenMP Benchmark
+
+ Number of zones:  16 x  16
+ Iterations:      500    dt:   0.000670
+ Number of active processes:     8
+
+ Use the default load factors with threads
+ Total number of threads:    224  ( 14.0 threads/process)
+
+ Calculated speedup =    224.00
+
+In sampleAsync: In sampleAsync: In sampleAsync: In sampleAsync: In sampleAsync: In sampleAsync: In sampleAsync: In sampleAsync: In sampleAsync: In sampleAsync: In sampleAsync: In sampleAsync: In sampleAsync: In sampleAsync: In sampleAsync: 
