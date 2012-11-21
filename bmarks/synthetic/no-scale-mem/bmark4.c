@@ -1,6 +1,6 @@
 //Tapasya Patki
-//Synthetic - 3
-//Memory-bound and scalable
+//Synthetic - 4
+//Memory-bound and not-scalable
 
 #include <mpi.h>
 #include <omp.h>
@@ -12,21 +12,44 @@
 #define ITERS 2000
 //Total array size = 65536 * 8 bytes; 512 MB
 #define FIXED_SZ 131072
+#define MSG_SZ 262144
+
 
 int main(int argc, char * argv[]){
 
 	int myrank, numnodes;
 	unsigned long mychunk;
-	int it;
+	int it,k;
 	unsigned long i,j;
 	double start, end;
 	int t, tid;
 	double *arr1, *arr2;
 
+	double sendcount, recvcount;
+        double *sendbuf, *recvbuf;
+
+
+
 	MPI_Init(&argc, &argv);
 
 	MPI_Comm_rank(MPI_COMM_WORLD, &myrank);
 	MPI_Comm_size(MPI_COMM_WORLD, &numnodes);
+
+
+	sendbuf = (double*) malloc(sizeof(double) * MSG_SZ * numnodes);
+	recvbuf = (double*) malloc(sizeof(double) * MSG_SZ * numnodes);
+
+	if(sendbuf == NULL || recvbuf == NULL){
+		printf("Could not allocate memory\n");
+		exit(1);
+	}
+		
+	
+	for(k=0; k<numnodes;k++){
+		for(it=0; it<MSG_SZ;it++){
+			sendbuf[it] = (k + it + 0.75);
+		}
+	}
 	
 	mychunk = (unsigned long) (LARGE/numnodes);
 
@@ -72,6 +95,8 @@ int main(int argc, char * argv[]){
 			}
 		}
 	}
+
+ 	MPI_Alltoall(sendbuf, MSG_SZ, MPI_DOUBLE, recvbuf, MSG_SZ, MPI_DOUBLE, MPI_COMM_WORLD);
 	
 	end=MPI_Wtime();
 
