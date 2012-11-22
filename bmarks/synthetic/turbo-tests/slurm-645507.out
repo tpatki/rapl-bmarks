@@ -1,2 +1,0 @@
-srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
-slurmd[rzmerl101]: *** JOB 645507 CANCELLED AT 2012-11-21T01:50:44 DUE TO TIME LIMIT ***
