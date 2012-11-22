@@ -1,0 +1,59 @@
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+In sampleAsync: 
+Each chunk is: 5368709120
+Iterations: 20
+In sampleAsync: 
+Time is: 21.086067 secs
+In sampleAsync: 
+Time is: 21.086142 secs
+In sampleAsync: 
+Time is: 21.086071 secs
+In sampleAsync: 
+Time is: 21.086160 secs
+In sampleAsync: 
+Time is: 21.086064 secs
+In sampleAsync: 
+Time is: 21.086186 secs
+Nodes: 8
+Time is: 21.086112 secs
+In sampleAsync: 
+Time is: 21.086275 secs
