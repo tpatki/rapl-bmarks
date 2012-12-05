@@ -5,8 +5,9 @@
 #MSUB -q pbatch
 #MSUB -m abe
 #MSUB -M dkl@cs.arizona.edu,tpatki@email.arizona.edu
-#MSUB -l walltime=00:20:00
+#MSUB -l walltime=01:00:00
 
+	minthreads=4
 	i=16
 	while [ $i -ge $minthreads ]
 	do
@@ -21,13 +22,12 @@
 		srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo | grep MHz >> info
 		srun --nodes=1 --ntasks=1 -o host_info hostname
 		echo 'threads/node: '$i >> info
-		echo 'nodes: ' $j >> info
-                echo 'turbo: 0'  >> info
+		echo 'nodes: ' 1 >> info
 
 		cp ../../opac.txt .
                 cp ../../input.dat .
 
-                srun --nodes=$j --ntasks=$j -e f.err ../../sphot
+                srun --nodes=1 --ntasks=1 -e f.err ../../sphot
 
 		cd ../
 
