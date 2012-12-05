@@ -27,10 +27,13 @@ make clean && make -j8 rapl-icc
 cd ../../../sphot
 make clean && make -j8
 
-cd ../NAS-MZ
-make clean 
-mkdir -p bin
-sh makeSP_MZ.sh
-sh makeBT_MZ.sh
+cd power
+msub test.msub
+
+#cd ../NAS-MZ
+#make clean 
+#mkdir -p bin
+#sh makeSP_MZ.sh
+#sh makeBT_MZ.sh
 #sh makeLU_MZ.sh
 

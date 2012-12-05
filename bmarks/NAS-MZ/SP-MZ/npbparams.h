@@ -13,7 +13,7 @@ c
         parameter (x_zones=16, y_zones=16)
         integer gx_size, gy_size, gz_size, niter_default
         parameter (gx_size=480, gy_size=320, gz_size=28)
-        parameter (niter_default=500)
+        parameter (niter_default=400)
         integer problem_size
         parameter (problem_size = 30)
         integer max_xysize, max_xybcsize
@@ -34,7 +34,7 @@ c
         logical  convertdouble
         parameter (convertdouble = .false.)
         character compiletime*11
-        parameter (compiletime='19 Nov 2012')
+        parameter (compiletime='05 Dec 2012')
         character npbversion*5
         parameter (npbversion='3.3.1')
         character cs1*6
@@ -42,12 +42,12 @@ c
         character cs2*6
         parameter (cs2='$(F77)')
         character cs3*46
-        parameter (cs3='-Xlinker -rpath -Xlinker $(PATH_LIBMSR) -L$...')
+        parameter (cs3='-Xlinker -rpath -Xlinker $(HOME)/local/src/...')
         character cs4*6
         parameter (cs4='(none)')
-        character cs5*24
-        parameter (cs5='-O3 -openmp -fPIC -DPIC ')
-        character cs6*13
-        parameter (cs6='-O3  -openmp ')
+        character cs5*19
+        parameter (cs5='-O3 -fPIC -fopenmp ')
+        character cs6*12
+        parameter (cs6='-O3 -fopenmp')
         character cs7*6
         parameter (cs7='randi8')
