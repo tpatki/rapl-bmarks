@@ -1,3 +1,4 @@
 -- Fix the 128-node scripts. Change the partition to asccasc and the system to rzmerl.
+-- Need to commit something so the -- depth 1 doesn't receive the cleanup info.
 
 
