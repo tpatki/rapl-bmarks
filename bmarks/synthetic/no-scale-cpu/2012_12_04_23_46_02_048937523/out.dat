@@ -1,0 +1,355 @@
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+
+SAMPLE=1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+SAMPLE=1
+
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+FUNC_INTERCEPT = 1
+
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+In sampleAsync: 
+Each chunk is: 1342177280
+Iterations: 20
+In sampleAsync: 
+Time is: 7.061579 secs
+In sampleAsync: 
+Time is: 7.061673 secs
+In sampleAsync: 
+Time is: 7.061692 secs
+In sampleAsync: 
+Time is: 7.062098 secs
+In sampleAsync: 
+Time is: 7.062141 secs
+In sampleAsync: 
+Time is: 7.062448 secs
+In sampleAsync: 
+Time is: 7.062177 secs
+In sampleAsync: 
+Time is: 7.061658 secs
+In sampleAsync: 
+Time is: 7.062119 secs
+In sampleAsync: 
+Time is: 7.062399 secs
+In sampleAsync: 
+Time is: 7.062759 secs
+In sampleAsync: 
+Time is: 7.063060 secs
+In sampleAsync: 
+Time is: 7.062237 secs
+In sampleAsync: 
+Time is: 7.062365 secs
+In sampleAsync: 
+Time is: 7.063110 secs
+In sampleAsync: 
+Time is: 7.063794 secs
+In sampleAsync: 
+Time is: 7.063341 secs
+In sampleAsync: 
+Time is: 7.063697 secs
+In sampleAsync: 
+Time is: 7.063941 secs
+In sampleAsync: 
+Time is: 7.064898 secs
+In sampleAsync: 
+Time is: 7.064631 secs
+In sampleAsync: 
+Time is: 7.065206 secs
+In sampleAsync: 
+Time is: 7.064201 secs
+In sampleAsync: 
+Time is: 7.065740 secs
+Nodes: 32
+Time is: 7.065631 secs
+In sampleAsync: 
+Time is: 7.064651 secs
+In sampleAsync: 
+Time is: 7.065458 secs
+In sampleAsync: 
+Time is: 7.066098 secs
+In sampleAsync: 
+Time is: 7.065546 secs
+In sampleAsync: 
+Time is: 7.065961 secs
+In sampleAsync: 
+Time is: 7.065674 secs
+In sampleAsync: 
+Time is: 7.066827 secs

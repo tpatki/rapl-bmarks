@@ -1,0 +1,196 @@
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+SAMPLE=1
+
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+In sampleAsync: 
+Each chunk is: 256
+Iterations: 2000
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+Nodes: 16
+Threads: 10
+ Rank 9 is done initializing
+Time is: 27.083961 secs
+ Rank 0 is done initializing
+Time is: 27.346179 secs
+ Rank 6 is done initializing
+Time is: 27.705461 secs
+ Rank 2 is done initializing
+Time is: 27.884988 secs
+ Rank 12 is done initializing
+Time is: 27.959323 secs
+ Rank 10 is done initializing
+Time is: 28.080829 secs
+ Rank 15 is done initializing
+Time is: 28.152578 secs
+ Rank 14 is done initializing
+Time is: 28.290857 secs
+ Rank 8 is done initializing
+Time is: 28.374723 secs
+ Rank 13 is done initializing
+Time is: 28.541530 secs
+ Rank 4 is done initializing
+Time is: 28.627507 secs
+ Rank 11 is done initializing
+Time is: 28.634111 secs
+ Rank 1 is done initializing
+Time is: 28.683243 secs
+ Rank 5 is done initializing
+Time is: 28.840624 secs
+ Rank 3 is done initializing
+Time is: 28.871660 secs
+ Rank 7 is done initializing
+Time is: 29.212823 secs

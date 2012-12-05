@@ -1,0 +1,388 @@
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+SAMPLE=1
+
+SAMPLE=1
+
+SAMPLE=1
+
+
+
+FUNC_INTERCEPT = 1
+
+
+FUNC_INTERCEPT = 1
+
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+SAMPLE=1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+
+FUNC_INTERCEPT = 1
+
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+FUNC_INTERCEPT = 1
+
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+In sampleAsync: 
+Each chunk is: 128
+Iterations: 2000
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+Nodes: 32
+Threads: 16
+ Rank 25 is done initializing
+Time is: 10.369337 secs
+ Rank 31 is done initializing
+Time is: 10.392453 secs
+ Rank 13 is done initializing
+Time is: 10.394874 secs
+ Rank 29 is done initializing
+Time is: 10.398411 secs
+ Rank 19 is done initializing
+Time is: 10.431997 secs
+ Rank 3 is done initializing
+Time is: 10.436755 secs
+ Rank 17 is done initializing
+Time is: 10.437263 secs
+ Rank 23 is done initializing
+Time is: 10.445763 secs
+ Rank 11 is done initializing
+Time is: 10.460820 secs
+ Rank 12 is done initializing
+Time is: 10.519347 secs
+ Rank 10 is done initializing
+Time is: 10.528966 secs
+ Rank 18 is done initializing
+Time is: 10.534169 secs
+ Rank 26 is done initializing
+Time is: 10.544591 secs
+ Rank 14 is done initializing
+Time is: 10.571200 secs
+ Rank 6 is done initializing
+Time is: 10.592018 secs
+ Rank 1 is done initializing
+Time is: 10.611562 secs
+ Rank 4 is done initializing
+Time is: 10.628709 secs
+ Rank 7 is done initializing
+Time is: 10.657912 secs
+ Rank 21 is done initializing
+Time is: 10.696489 secs
+ Rank 16 is done initializing
+Time is: 10.803698 secs
+ Rank 20 is done initializing
+Time is: 10.805217 secs
+ Rank 24 is done initializing
+Time is: 10.830079 secs
+ Rank 28 is done initializing
+Time is: 10.859076 secs
+ Rank 9 is done initializing
+Time is: 10.951138 secs
+ Rank 2 is done initializing
+Time is: 10.961545 secs
+ Rank 22 is done initializing
+Time is: 10.963165 secs
+ Rank 30 is done initializing
+Time is: 10.975538 secs
+ Rank 5 is done initializing
+Time is: 11.131576 secs
+ Rank 8 is done initializing
+Time is: 11.139089 secs
+ Rank 27 is done initializing
+Time is: 11.203415 secs
+ Rank 0 is done initializing
+Time is: 11.233817 secs
+ Rank 15 is done initializing
+Time is: 12.231507 secs

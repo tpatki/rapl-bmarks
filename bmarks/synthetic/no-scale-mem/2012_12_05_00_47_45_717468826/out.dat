@@ -1,0 +1,68 @@
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+In sampleAsync: 
+Each chunk is: 512
+Iterations: 2000
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+Nodes: 8
+Threads: 16
+ Rank 3 is done initializing
+Time is: 46.359140 secs
+ Rank 4 is done initializing
+Time is: 46.359169 secs
+ Rank 0 is done initializing
+Time is: 46.347798 secs
+ Rank 1 is done initializing
+Time is: 46.359320 secs
+ Rank 6 is done initializing
+Time is: 46.359362 secs
+ Rank 5 is done initializing
+Time is: 46.359422 secs
+ Rank 7 is done initializing
+Time is: 46.359382 secs
+ Rank 2 is done initializing
+Time is: 46.359446 secs
