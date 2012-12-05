@@ -9,7 +9,7 @@
 
 //Large is 2^32 atm
 #define LARGE 4294967296
-#define ITERS 1
+#define ITERS 4
 
 
 int main(int argc, char * argv[]){
