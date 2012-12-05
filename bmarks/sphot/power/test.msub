@@ -1,0 +1,36 @@
+#!/bin/bash
+#MSUB -lpartition=cab
+#MSUB -A asccasc
+#MSUB -l nodes=1
+#MSUB -q pbatch
+#MSUB -m abe
+#MSUB -M dkl@cs.arizona.edu,tpatki@email.arizona.edu
+#MSUB -l walltime=00:20:00
+
+	i=16
+	while [ $i -ge $minthreads ]
+	do
+		export OMP_NUM_THREADS=$i
+		name=`date +%Y_%m_%d_%H_%M_%S_%N`
+		mkdir $name
+		cd $name
+		touch out.dat
+		env > env
+		echo $name >> info
+		uname -a >> info
+		srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo | grep MHz >> info
+		srun --nodes=1 --ntasks=1 -o host_info hostname
+		echo 'threads/node: '$i >> info
+		echo 'nodes: ' $j >> info
+                echo 'turbo: 0'  >> info
+
+		cp ../../opac.txt .
+                cp ../../input.dat .
+
+                srun --nodes=$j --ntasks=$j -e f.err ../../sphot
+
+		cd ../
+
+		i=$(($i-2))
+	done
+
