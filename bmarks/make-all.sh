@@ -37,3 +37,6 @@ msub test.msub
 #sh makeBT_MZ.sh
 #sh makeLU_MZ.sh
 
+git add .
+git commit -a -m "Results"
+git push
