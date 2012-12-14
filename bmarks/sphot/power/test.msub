@@ -1,6 +1,6 @@
 #!/bin/bash
-#MSUB -lpartition=cab
-#MSUB -A asccasc
+#MSUB -lpartition=rzmerl
+#MSUB -A lc
 #MSUB -l nodes=4
 #MSUB -q pbatch
 #MSUB -m abe
@@ -33,4 +33,7 @@
 
 		i=$(($i-2))
 	done
+git add .
+git commit -a -m "Results"
+git push
 
