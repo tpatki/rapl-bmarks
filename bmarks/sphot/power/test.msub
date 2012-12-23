@@ -4,7 +4,7 @@
 #MSUB -l nodes=4
 #MSUB -q pbatch
 #MSUB -m abe
-#MSUB -M tpatki@email.arizona.edu
+#MSUB -M rountree4@llnl.gov
 #MSUB -l walltime=02:00:00
 
 	minthreads=16
@@ -33,6 +33,8 @@
 
 		i=$(($i-2))
 	done
+
+
 git add .
 git commit -a -m "Results"
 git push

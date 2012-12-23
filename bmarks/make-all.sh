@@ -25,7 +25,7 @@ make clean && make -j8 rapl-icc
 #make clean && make
 
 cd ../../../sphot
-make clean && make -j8
+make clean && make
 
 cd power
 msub test.msub
@@ -37,6 +37,3 @@ msub test.msub
 #sh makeBT_MZ.sh
 #sh makeLU_MZ.sh
 
-git add .
-git commit -a -m "Results"
-git push
