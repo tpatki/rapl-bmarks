@@ -1,0 +1,8 @@
+Error: To run an MPI program, the MSR_RANK_MOD environment variable should be set.
+Error: To run an MPI program, the MSR_RANK_MOD environment variable should be set.
+Error: To run an MPI program, the MSR_RANK_MOD environment variable should be set.
+Error: To run an MPI program, the MSR_RANK_MOD environment variable should be set.
+srun: error: rzmerl43: task 0: Exited with exit code 1
+srun: error: rzmerl44: task 1: Exited with exit code 1
+srun: error: rzmerl51: task 2: Exited with exit code 1
+srun: error: rzmerl67: task 3: Exited with exit code 1
