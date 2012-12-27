@@ -144,6 +144,8 @@ get_env_variables(struct rapl_state_s *s){
 //			You need to have read_msr access to be able to get the info/limit/status.
 				
   			print_rapl_state_header(s);
+			
+			printf("\n DEBUG: get_env_vars: Getting all info now and starting counters");
        			 for(package=0; package<NUM_PACKAGES; package++){
                 		get_all_info(  package, s);
               			get_all_limit( package, s);

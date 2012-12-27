@@ -918,6 +918,9 @@ void print_rapl_state_header(struct rapl_state_s *s){
 	// Done
 	//
 	fprintf(s->f, "\n");
+	
+	printf("\n DEBUG: print_rapl_state_header complete");
+
 }
 
 void
