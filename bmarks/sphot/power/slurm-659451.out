@@ -8,3 +8,20 @@ srun: tasks 1-3: running
 srun: task 0: exited abnormally
 srun: Terminating job step 659451.2
 srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+[master c2d96a1] Results
+ 9 files changed, 23506 insertions(+), 0 deletions(-)
+ create mode 100644 bmarks/sphot/power/2012_12_26_23_02_06_827938255/env
+ create mode 100644 bmarks/sphot/power/2012_12_26_23_02_06_827938255/f.err
+ create mode 100644 bmarks/sphot/power/2012_12_26_23_02_06_827938255/host_info
+ create mode 100644 bmarks/sphot/power/2012_12_26_23_02_06_827938255/info
+ create mode 100644 bmarks/sphot/power/2012_12_26_23_02_06_827938255/input.dat
+ create mode 100755 bmarks/sphot/power/2012_12_26_23_02_06_827938255/opac.txt
+ create mode 100644 bmarks/sphot/power/2012_12_26_23_02_06_827938255/out.dat
+ create mode 100644 bmarks/sphot/power/2012_12_26_23_02_06_827938255/out_setup.txt
+ create mode 100644 bmarks/sphot/power/2012_12_26_23_02_06_827938255/rzmerl154_rapl_3.rapl.out
+ create mode 100644 bmarks/sphot/power/2012_12_26_23_02_06_827938255/rzmerl18_rapl_0.rapl.out
+ create mode 100644 bmarks/sphot/power/2012_12_26_23_02_06_827938255/rzmerl53_rapl_1.rapl.out
+ create mode 100644 bmarks/sphot/power/2012_12_26_23_02_06_827938255/rzmerl69_rapl_2.rapl.out
+ create mode 100644 bmarks/sphot/power/slurm-659451.out
+To git@github.com:tpatki/rapl-bmarks
+   5df46d5..c2d96a1  master -> master
