@@ -472,6 +472,7 @@ rapl_finalize( struct rapl_state_s *s, int reset_limits){
 	}
 
 	if( s==NULL ){
+		printf("\n Error: State pointer should not be null. Something went wrong");
 		s = &no_caller_rapl_state;
 	}
 

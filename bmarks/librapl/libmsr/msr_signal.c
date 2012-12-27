@@ -58,7 +58,7 @@ void restore_defaults()
             */ // These are currently locked out.
 	 
 	    //Default is enabled for turbo boost
-	     enable_turbo(package); 
+//	     enable_turbo(package); 
 	}                     
 
 	//Close the /dev/cpu/msr files, in case they are open...

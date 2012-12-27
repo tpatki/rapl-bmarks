@@ -105,8 +105,10 @@ static int intercept = 0;
 
 {{fn foo MPI_Finalize}}
 	double elapsed;
+	printf("\nFinalize begin");
 	if(rank%msr_rank_mod == 0){
 		rapl_finalize(rs2,0);
 	}
+	printf("\nFinalize end");
 	{{callfn}}
 {{endfn}}
