@@ -6,3 +6,15 @@ srun: error: rzmerl43: task 0: Exited with exit code 1
 srun: error: rzmerl44: task 1: Exited with exit code 1
 srun: error: rzmerl51: task 2: Exited with exit code 1
 srun: error: rzmerl67: task 3: Exited with exit code 1
+[master 158b9ad] Results
+ 6 files changed, 23417 insertions(+), 0 deletions(-)
+ create mode 100644 bmarks/sphot/power/2012_12_23_22_37_47_851918432/env
+ create mode 100644 bmarks/sphot/power/2012_12_23_22_37_47_851918432/f.err
+ create mode 100644 bmarks/sphot/power/2012_12_23_22_37_47_851918432/host_info
+ create mode 100644 bmarks/sphot/power/2012_12_23_22_37_47_851918432/info
+ create mode 100644 bmarks/sphot/power/2012_12_23_22_37_47_851918432/input.dat
+ create mode 100755 bmarks/sphot/power/2012_12_23_22_37_47_851918432/opac.txt
+ create mode 100644 bmarks/sphot/power/2012_12_23_22_37_47_851918432/out.dat
+ create mode 100644 bmarks/sphot/power/slurm-658474.out
+To git@github.com:tpatki/rapl-bmarks
+   3010587..158b9ad  master -> master
