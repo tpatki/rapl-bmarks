@@ -17,9 +17,9 @@ LDR      ?=mpif77
 LDRFLAGS = -g -openmp -traceback -diag-disable 177 -diag-disable 279 -diag-disable 181 -nocheck
 LIB_DIRS=
 LIBS=
-#LIB_DIRS =-Xlinker -rpath -Xlinker $(PATH_LIBMSR) -L$(PATH_LIBMSR)
+LIB_DIRS =-Xlinker -rpath -Xlinker $(PATH_LIBMSR) -L$(PATH_LIBMSR)
 #LIB_DIRS =-Xlinker -rpath=$(HOME)/local/src/bmarks/librapl/libmsr/lib -L$(HOME)/local/src/bmarks/librapl/libmsr/lib -lrapl
-#LIBS     = -lrapl
+LIBS     = -lrapl
 ##### End of required modifications section
 
 
