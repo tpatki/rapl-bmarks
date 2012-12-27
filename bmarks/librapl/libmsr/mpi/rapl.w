@@ -44,7 +44,7 @@ static int intercept = 0;
 
 	retVal = get_env_int("SAMPLE", &sample);
 
-	if(retVal == -1){
+	if(retVal == -1 || sample == 0){
 		printf("Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.\n"); 
 	}
 
@@ -59,9 +59,10 @@ static int intercept = 0;
 		//TP
 		sprintf(filetag, "%s_rapl_%d", hostname, rank); 
 		//TP
-	//	register_sig();
+		register_sig();
 		//TP
 		rs2 = rapl_init(filetag); 
+		printf("\nInitialization complete");
 
 		if(intercept == 1){
 			printf("\nFUNC_INTERCEPT = 1\n");
@@ -86,6 +87,7 @@ static int intercept = 0;
 	}
 	//As suggested by Martin
 	PMPI_Barrier(MPI_COMM_WORLD);
+	printf("\nInitialization complete stage 2");
 {{endfn}}
 
 {{fnall foo MPI_Init MPI_Finalize}} {
