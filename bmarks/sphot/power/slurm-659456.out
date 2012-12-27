@@ -1,0 +1,14 @@
+[master 6e5e17c] Results
+ 8 files changed, 23495 insertions(+), 0 deletions(-)
+ create mode 100644 bmarks/sphot/power/2012_12_26_23_14_44_936249101/env
+ create mode 100644 bmarks/sphot/power/2012_12_26_23_14_44_936249101/f.err
+ create mode 100644 bmarks/sphot/power/2012_12_26_23_14_44_936249101/host_info
+ create mode 100644 bmarks/sphot/power/2012_12_26_23_14_44_936249101/info
+ create mode 100644 bmarks/sphot/power/2012_12_26_23_14_44_936249101/input.dat
+ create mode 100755 bmarks/sphot/power/2012_12_26_23_14_44_936249101/opac.txt
+ create mode 100644 bmarks/sphot/power/2012_12_26_23_14_44_936249101/out.dat
+ create mode 100644 bmarks/sphot/power/2012_12_26_23_14_44_936249101/out_answers.txt
+ create mode 100644 bmarks/sphot/power/2012_12_26_23_14_44_936249101/out_setup.txt
+ create mode 100644 bmarks/sphot/power/slurm-659456.out
+To git@github.com:tpatki/rapl-bmarks
+   fe2d6e6..6e5e17c  master -> master
