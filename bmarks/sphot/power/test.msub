@@ -7,6 +7,16 @@
 #MSUB -M rountree4@llnl.gov
 #MSUB -l walltime=02:00:00
 
+export PKG_MINW_MINS=0x38198
+export PP0_MINW_MINS=0x38198
+export DRAM_MINW_MINS=0x38078
+export MSR_PKG_POWER_LIMIT=0x0
+export MSR_PP0_POWER_LIMIT=0x0
+export MSR_DRAM_POWER_LIMIT=0x0
+export MSR_RANK_MOD=1 #One task per node, the rest are threads
+export SAMPLE=0
+export TURBO_ENABLE=0 
+
 	minthreads=16
 	i=16
 	while [ $i -ge $minthreads ]
@@ -22,7 +32,7 @@
 		srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo | grep MHz >> info
 		srun --nodes=1 --ntasks=1 -o host_info hostname
 		echo 'threads/node: '$i >> info
-		echo 'nodes: ' 1 >> info
+		echo 'nodes: ' 4 >> info
 
 		cp ../../opac.txt .
                 cp ../../input.dat .
