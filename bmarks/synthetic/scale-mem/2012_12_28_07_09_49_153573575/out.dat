@@ -1,0 +1,261 @@
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+SAMPLE=1
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+SAMPLE=1
+
+
+
+
+SAMPLE=1
+
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+
+
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+Initialization complete stage 2
+Each chunk is: 256
+Iterations: 2000
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Nodes: 16
+Threads: 10
+ Rank 0 is done initializing
+Time is: 28.006098 secs
+
+Finalize begin
+ Rank 4 is done initializing
+Time is: 28.124136 secs
+
+Finalize begin
+ Rank 9 is done initializing
+Time is: 28.259023 secs
+
+Finalize begin
+ Rank 10 is done initializing
+Time is: 28.490360 secs
+
+Finalize begin
+ Rank 8 is done initializing
+Time is: 28.603598 secs
+
+Finalize begin
+ Rank 6 is done initializing
+Time is: 28.640003 secs
+
+Finalize begin
+ Rank 5 is done initializing
+Time is: 28.643138 secs
+
+Finalize begin
+ Rank 2 is done initializing
+Time is: 28.681539 secs
+
+ Rank 12 is done initializing
+Time is: 28.680882 secs
+
+Finalize begin
+Finalize begin
+ Rank 1 is done initializing
+Time is: 28.719206 secs
+
+Finalize begin
+ Rank 13 is done initializing
+Time is: 28.764651 secs
+
+Finalize begin
+ Rank 7 is done initializing
+Time is: 28.798230 secs
+
+Finalize begin
+ Rank 14 is done initializing
+Time is: 28.992168 secs
+
+Finalize begin
+ Rank 3 is done initializing
+Time is: 29.129515 secs
+
+Finalize begin
+ Rank 11 is done initializing
+Time is: 29.554274 secs
+
+Finalize begin
+ Rank 15 is done initializing
+Time is: 29.613447 secs
+
+Finalize begin
+Finalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize end
