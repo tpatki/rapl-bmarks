@@ -1,0 +1,101 @@
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+Initialization complete
+SAMPLE=1
+
+In sampleAsync: 
+Initialization complete stage 2
+Each chunk is: 512
+Iterations: 2000
+
+Initialization complete
+SAMPLE=1
+
+In sampleAsync: 
+
+Initialization complete
+SAMPLE=1
+
+Initialization complete stage 2
+In sampleAsync: 
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+Initialization complete stage 2
+
+In sampleAsync: 
+Initialization complete stage 2
+In sampleAsync: 
+Initialization complete stage 2
+Nodes: 8
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+Initialization complete
+SAMPLE=1
+
+
+In sampleAsync: 
+Initialization complete stage 2
+In sampleAsync: 
+In sampleAsync: 
+Initialization complete stage 2
+Initialization complete stage 2
+Threads: 14
+ Rank 4 is done initializing
+Time is: 55.257996 secs
+
+ Rank 3 is done initializing
+Time is: 55.258030 secs
+
+Finalize begin
+ Rank 2 is done initializing
+Time is: 55.257843 secs
+
+Finalize begin
+ Rank 5 is done initializing
+Time is: 55.258203 secs
+
+Finalize begin
+Finalize begin
+ Rank 0 is done initializing
+Time is: 55.238714 secs
+
+ Rank 6 is done initializing
+Time is: 55.260960 secs
+
+ Rank 1 is done initializing
+Time is: 55.260870 secs
+
+ Rank 7 is done initializing
+Time is: 55.261132 secs
+
+Finalize begin
+Finalize begin
+Finalize begin
+Finalize begin
+Finalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize end

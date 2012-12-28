@@ -36,4 +36,24 @@ srun: tasks 1-3: running
 srun: task 0: exited abnormally
 srun: Terminating job step 659567.2
 srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
-Initialization complete stage 2Initialization complete stage 2Initialization complete stage 2
+Initialization complete stage 2Initialization complete stage 2Initialization complete stage 2[master 4941cf4] Results
+ 10 files changed, 23589 insertions(+), 1 deletions(-)
+ create mode 100644 bmarks/sphot/power/2012_12_27_06_44_46_301478513/env
+ create mode 100644 bmarks/sphot/power/2012_12_27_06_44_46_301478513/f.err
+ create mode 100644 bmarks/sphot/power/2012_12_27_06_44_46_301478513/host_info
+ create mode 100644 bmarks/sphot/power/2012_12_27_06_44_46_301478513/info
+ create mode 100644 bmarks/sphot/power/2012_12_27_06_44_46_301478513/input.dat
+ create mode 100755 bmarks/sphot/power/2012_12_27_06_44_46_301478513/opac.txt
+ create mode 100644 bmarks/sphot/power/2012_12_27_06_44_46_301478513/out.dat
+ create mode 100644 bmarks/sphot/power/2012_12_27_06_44_46_301478513/out_setup.txt
+ create mode 100644 bmarks/sphot/power/2012_12_27_06_44_46_301478513/rzmerl104_rapl_2.rapl.out
+ create mode 100644 bmarks/sphot/power/2012_12_27_06_44_46_301478513/rzmerl125_rapl_3.rapl.out
+ create mode 100644 bmarks/sphot/power/2012_12_27_06_44_46_301478513/rzmerl73_rapl_0.rapl.out
+ create mode 100644 bmarks/sphot/power/2012_12_27_06_44_46_301478513/rzmerl93_rapl_1.rapl.out
+ create mode 100644 bmarks/sphot/power/slurm-659567.out
+To git@github.com:tpatki/rapl-bmarks
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:tpatki/rapl-bmarks'
+To prevent you from losing history, non-fast-forward updates were rejected
+Merge the remote changes before pushing again.  See the 'Note about
+fast-forwards' section of 'git push --help' for details.

@@ -1,0 +1,124 @@
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+In sampleAsync: 
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+Initialization complete
+FUNC_INTERCEPT = 1
+In sampleAsync: 
+
+SAMPLE=1
+
+In sampleAsync: 
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+In sampleAsync: 
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+SAMPLE=1
+
+In sampleAsync: 
+In sampleAsync: 
+Initialization complete stage 2
+Each chunk is: 5368709120
+Iterations: 20
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+SAMPLE=1
+
+
+In sampleAsync: 
+In sampleAsync: 
+Initialization complete stage 2
+Time is: 58.253825 secs
+
+Finalize begin
+Initialization complete stage 2
+Time is: 58.295239 secs
+
+Finalize begin
+Initialization complete stage 2
+Time is: 58.316153 secs
+
+Finalize begin
+Initialization complete stage 2
+Time is: 58.328660 secs
+
+Finalize begin
+Initialization complete stage 2
+Time is: 58.347126 secs
+
+Finalize begin
+Initialization complete stage 2
+Time is: 58.372066 secs
+
+Finalize begin
+Nodes: 8
+Time is: 58.391101 secs
+
+Finalize begin
+Initialization complete stage 2
+Time is: 58.444362 secs
+
+Finalize begin
+Finalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize end

@@ -1,0 +1,133 @@
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+Initialization complete
+FUNC_INTERCEPT = 1
+
+SAMPLE=1
+
+SAMPLE=1
+
+
+
+SAMPLE=1
+
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+Initialization complete stage 2
+Each chunk is: 512
+Iterations: 2000
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Nodes: 8
+Threads: 14
+ Rank 0 is done initializing
+Time is: 45.420449 secs
+
+Finalize begin
+ Rank 7 is done initializing
+Time is: 45.452619 secs
+ Rank 4 is done initializing
+Time is: 45.453346 secs
+
+
+Finalize begin
+Finalize begin
+ Rank 6 is done initializing
+Time is: 45.452545 secs
+
+Finalize begin
+ Rank 1 is done initializing
+Time is: 45.452586 secs
+
+Finalize begin
+ Rank 5 is done initializing
+Time is: 45.453433 secs
+
+Finalize begin
+ Rank 2 is done initializing
+Time is: 45.454035 secs
+
+Finalize begin
+ Rank 3 is done initializing
+Time is: 45.453651 secs
+
+Finalize begin
+Finalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize end

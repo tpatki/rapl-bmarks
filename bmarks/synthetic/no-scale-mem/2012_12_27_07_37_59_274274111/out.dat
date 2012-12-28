@@ -1,0 +1,389 @@
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+Initialization complete
+SAMPLE=1
+
+
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+Initialization complete
+SAMPLE=1
+
+
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+In sampleAsync: 
+In sampleAsync: 
+
+Initialization complete
+SAMPLE=1
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+
+Initialization complete
+SAMPLE=1
+
+In sampleAsync: 
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+In sampleAsync: 
+In sampleAsync: 
+
+Initialization complete
+SAMPLE=1
+
+In sampleAsync: 
+
+Initialization complete
+SAMPLE=1
+
+In sampleAsync: 
+
+Initialization complete
+SAMPLE=1
+
+In sampleAsync: 
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+In sampleAsync: 
+
+In sampleAsync: 
+
+Initialization complete
+SAMPLE=1
+
+Initialization complete
+SAMPLE=1
+
+
+
+Initialization complete
+SAMPLE=1
+
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+In sampleAsync: 
+
+In sampleAsync: 
+
+Initialization complete
+SAMPLE=1
+
+Initialization complete
+SAMPLE=1
+
+
+In sampleAsync: 
+In sampleAsync: 
+Initialization complete stage 2
+Each chunk is: 128
+Iterations: 2000
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Nodes: 32
+Threads: 14
+ Rank 12 is done initializing
+Time is: 15.074341 secs
+
+ Rank 13 is done initializing
+Time is: 15.074178 secs
+
+ Rank 15 is done initializing
+Time is: 15.074308 secs
+
+ Rank 17 is done initializing
+Time is: 15.074385 secs
+
+ Rank 16 is done initializing
+Time is: 15.074299 secs
+
+ Rank 19 is done initializing
+Time is: 15.074256 secs
+
+ Rank 11 is done initializing
+Time is: 15.074472 secs
+
+Finalize begin
+ Rank 14 is done initializing
+Time is: 15.074451 secs
+
+ Rank 18 is done initializing
+Time is: 15.074270 secs
+
+Finalize begin
+Finalize begin
+Finalize begin
+Finalize begin
+Finalize begin
+Finalize begin
+Finalize begin
+ Rank 21 is done initializing
+Time is: 15.074370 secs
+
+ Rank 20 is done initializing
+Time is: 15.074445 secs
+
+ Rank 8 is done initializing
+Time is: 15.074682 secs
+ Rank 10 is done initializing
+Time is: 15.074539 secs
+
+Finalize begin
+Finalize begin
+Finalize begin
+ Rank 23 is done initializing
+Time is: 15.074570 secs
+
+ Rank 9 is done initializing
+Time is: 15.074713 secs
+
+
+Finalize begin
+ Rank 22 is done initializing
+Time is: 15.074684 secs
+
+Finalize begin
+Finalize begin
+Finalize begin
+Finalize begin
+ Rank 2 is done initializing
+Time is: 15.075082 secs
+
+ Rank 29 is done initializing
+Time is: 15.074681 secs
+
+ Rank 3 is done initializing
+Time is: 15.075008 secs
+
+ Rank 28 is done initializing
+Time is: 15.075028 secs
+
+Finalize begin
+Finalize begin
+ Rank 1 is done initializing
+Time is: 15.075134 secs
+Finalize begin
+ Rank 30 is done initializing
+Time is: 15.075204 secs
+
+Finalize begin
+
+Finalize begin
+ Rank 0 is done initializing
+Time is: 15.040921 secs
+
+ Rank 31 is done initializing
+Time is: 15.075271 secs
+
+Finalize begin
+Finalize begin
+Finalize begin
+ Rank 4 is done initializing
+Time is: 15.076803 secs
+
+ Rank 27 is done initializing
+Time is: 15.077229 secs
+
+Finalize begin
+ Rank 5 is done initializing
+Time is: 15.077391 secs
+
+ Rank 6 is done initializing
+Time is: 15.077148 secs
+
+ Rank 7 is done initializing
+Time is: 15.077334 secs
+
+ Rank 25 is done initializing
+Time is: 15.077086 secs
+
+ Rank 24 is done initializing
+Time is: 15.077378 secs
+
+Finalize begin
+Finalize begin
+Finalize begin
+Finalize begin
+ Rank 26 is done initializing
+Time is: 15.077172 secs
+
+Finalize begin
+Finalize begin
+Finalize begin
+Finalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize end
