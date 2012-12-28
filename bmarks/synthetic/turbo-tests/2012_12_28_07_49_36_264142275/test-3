@@ -1,0 +1,17 @@
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+Initialization complete
+SAMPLE=1
+
+In sampleAsync: 
+Initialization complete stage 2
+Each chunk is: 42949672960
+Iterations: 20
+Nodes: 1
+Time is: 614.001370 secs
+
+Finalize begin
+Finalize end
