@@ -1,0 +1,92 @@
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+Initialization complete
+SAMPLE=1
+
+In sampleAsync: 
+Initialization complete stage 2
+Each chunk is: 5368709120
+Iterations: 20
+
+Initialization complete
+SAMPLE=1
+
+In sampleAsync: 
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+Initialization complete
+SAMPLE=1
+
+
+In sampleAsync: 
+
+Initialization complete
+SAMPLE=1
+
+In sampleAsync: 
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+In sampleAsync: 
+
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+Initialization complete stage 2
+Time is: 24.833346 secs
+Initialization complete stage 2
+Time is: 24.833431 secs
+Initialization complete stage 2
+Time is: 24.833563 secs
+Initialization complete stage 2
+Time is: 24.833525 secs
+Initialization complete stage 2
+Time is: 24.833637 secs
+Initialization complete stage 2
+Time is: 24.833503 secs
+Nodes: 8
+Time is: 24.833706 secs
+Initialization complete stage 2
+Time is: 24.833665 secs
+
+
+
+
+Finalize begin
+Finalize begin
+Finalize begin
+
+
+
+Finalize begin
+Finalize begin
+Finalize begin
+
+Finalize begin
+Finalize begin
+Finalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize end
