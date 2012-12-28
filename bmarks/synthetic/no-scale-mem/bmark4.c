@@ -94,10 +94,13 @@ int main(int argc, char * argv[]){
 				arr2[j] = arr1[(FIXED_SZ-1) - j];
 			}
 		}
-	}
+//	}
 
  	MPI_Alltoall(sendbuf, MSG_SZ, MPI_DOUBLE, recvbuf, MSG_SZ, MPI_DOUBLE, MPI_COMM_WORLD);
-	
+ 	MPI_Alltoall(sendbuf, MSG_SZ, MPI_DOUBLE, recvbuf, MSG_SZ, MPI_DOUBLE, MPI_COMM_WORLD);
+
+	}	
+
 	end=MPI_Wtime();
 
 	free(arr1);

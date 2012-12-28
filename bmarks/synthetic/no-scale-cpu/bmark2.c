@@ -69,8 +69,10 @@ int main(int argc, char * argv[]){
 	//}
 
 
-	//Send a large MPI_Alltoall so things don't scale.
+	//Send a large MPI_Alltoall so things don't scale. Repeat.
 	
+	MPI_Alltoall(sendbuf, MSG_SZ, MPI_DOUBLE, recvbuf, MSG_SZ, MPI_DOUBLE, MPI_COMM_WORLD);
+
 	MPI_Alltoall(sendbuf, MSG_SZ, MPI_DOUBLE, recvbuf, MSG_SZ, MPI_DOUBLE, MPI_COMM_WORLD);
 	}
 

@@ -7,12 +7,12 @@ export PATH_LIBMSR=$curr/librapl/libmsr/lib
 #export PATH_LIBMSR=$curr/rapl-bmarks/bmarks/librapl/libmsr/lib
 echo $PATH_LIBMSR
 
-#cd librapl/libmsr
-#mkdir -p lib
-#make clean && make 
+cd librapl/libmsr
+mkdir -p lib
+make clean && make 
 
-#cd mpi
-#make clean && make rapl-icc
+cd mpi
+make clean && make rapl-icc
 
 #cd ../../../lulesh-oct30
 #make clean && make
@@ -24,7 +24,7 @@ echo $PATH_LIBMSR
 #cd lulesh
 #make clean && make
 
-cd synthetic/scale-mem
+cd ../../../synthetic/scale-mem
 make clean && make -j8
 
 cd ../no-scale-mem

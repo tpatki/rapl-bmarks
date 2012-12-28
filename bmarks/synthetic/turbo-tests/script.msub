@@ -5,7 +5,7 @@
 #MSUB -q pbatch
 #MSUB -m abe
 #MSUB -M rountree4@llnl.gov,tpatki@email.arizona.edu
-#MSUB -l walltime=01:45:00
+#MSUB -l walltime=03:45:00
 
 i=16
 min=1
@@ -38,3 +38,8 @@ do
 
 	i=$(($i-1))
 done
+
+
+git add .
+git commit -a -m "Turbo"
+git push
