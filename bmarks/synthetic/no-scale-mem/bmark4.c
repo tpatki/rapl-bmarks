@@ -10,6 +10,8 @@
 //Large is 2^32 atm
 #define LARGE 4096
 #define ITERS 2000
+//Need to run same number of iters as the no-scale-cpu version; which is 20.
+#define COMM_ITERS 20 
 //Total array size = 65536 * 8 bytes; 512 MB
 #define FIXED_SZ 131072
 #define MSG_SZ 262144
@@ -94,12 +96,14 @@ int main(int argc, char * argv[]){
 				arr2[j] = arr1[(FIXED_SZ-1) - j];
 			}
 		}
-//	}
+	}
 
- 	MPI_Alltoall(sendbuf, MSG_SZ, MPI_DOUBLE, recvbuf, MSG_SZ, MPI_DOUBLE, MPI_COMM_WORLD);
- 	MPI_Alltoall(sendbuf, MSG_SZ, MPI_DOUBLE, recvbuf, MSG_SZ, MPI_DOUBLE, MPI_COMM_WORLD);
+	for(it=0; it < COMM_ITERS; it++){
+ 		MPI_Alltoall(sendbuf, MSG_SZ, MPI_DOUBLE, recvbuf, MSG_SZ, MPI_DOUBLE, MPI_COMM_WORLD);
+	 	MPI_Alltoall(sendbuf, MSG_SZ, MPI_DOUBLE, recvbuf, MSG_SZ, MPI_DOUBLE, MPI_COMM_WORLD);
+	}
 
-	}	
+//	}	
 
 	end=MPI_Wtime();
 
