@@ -108,7 +108,8 @@ get_env_variables(struct rapl_state_s *s){
 			//Now that the permissions are correct, first disable turbo.
 			
 			for(package=0;package<NUM_PACKAGES; package++){
-				disable_turbo(package);
+					enable_turbo(package);
+//TP:Dec28				disable_turbo(package);
 			}
 	
 //			You want to do this in here and not in rapl_init because it is safer to do it in here.
@@ -139,6 +140,7 @@ get_env_variables(struct rapl_state_s *s){
 			//Now that the permissions are correct, first disable turbo.
 			
 			for(package=0;package<NUM_PACKAGES; package++){
+				//No need to enable turbo here because we don't want to use turbo when we are using RAPL.
 				disable_turbo(package);
 			}
 			

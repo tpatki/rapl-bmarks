@@ -37,8 +37,8 @@ FLINK	= $(F77)
 #---------------------------------------------------------------------------
 # These macros are passed to the linker 
 #---------------------------------------------------------------------------
-F_LIB  = -Xlinker -rpath -Xlinker $(HOME)/local/src/local-merlot/bmarks/librapl/libmsr/lib -L$(HOME)/local/src/local-merlot/bmarks/librapl/libmsr/lib -lrapl
-#F_LIB  = -Xlinker -rpath -Xlinker $(PATH_LIBMSR) -L$(PATH_LIBMSR) -lrapl
+#F_LIB  = -Xlinker -rpath -Xlinker $(HOME)/local/src/local-merlot/bmarks/librapl/libmsr/lib -L$(HOME)/local/src/local-merlot/bmarks/librapl/libmsr/lib -lrapl
+F_LIB  = -Xlinker -rpath -Xlinker $(PATH_LIBMSR) -L$(PATH_LIBMSR) -lrapl
 
 #F_LIB =
 #---------------------------------------------------------------------------
@@ -49,16 +49,16 @@ F_INC =
 #---------------------------------------------------------------------------
 # Global *compile time* flags for Fortran programs
 #---------------------------------------------------------------------------
-FFLAGS	= -O3 -fPIC -fopenmp 
-#FFLAGS	= -O3 -openmp -fPIC -DPIC 
+#FFLAGS	= -O3 -fPIC -fopenmp 
+FFLAGS	= -O3 -openmp -fPIC -DPIC 
 
 #---------------------------------------------------------------------------
 # Global *link time* flags. Flags for increasing maximum executable 
 # size usually go here. 
 #---------------------------------------------------------------------------
-FLINKFLAGS = -O3 -fopenmp
+#FLINKFLAGS = -O3 -fopenmp
 
-#FLINKFLAGS = -O3  -openmp 
+FLINKFLAGS = -O3  -openmp 
 #-fPIC -DPIC
 
 #---------------------------------------------------------------------------

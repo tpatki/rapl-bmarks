@@ -3,8 +3,8 @@
 cd NAS-MZ/SP-MZ/power
 msub rapl-runs-small.msub
 
-cd ../../BT-MZ/power
-msub rapl-runs-small.msub
+#cd ../../BT-MZ/power
+#msub rapl-runs-small.msub
 
 #cd ../../LU-MZ/power
 #msub rapl-runs-small.msub
