@@ -24,8 +24,8 @@ make clean && make -j8 rapl-icc
 #cd lulesh
 #make clean && make
 
-cd ../../../sphot
-make clean && make
+#cd ../../../sphot
+#make clean && make
 
 #cd power
 #msub test.msub
