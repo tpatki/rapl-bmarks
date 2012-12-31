@@ -30,7 +30,7 @@ make clean && make -j8 rapl-icc
 #cd power
 #msub test.msub
 
-cd ../NAS-MZ
+cd ../../../NAS-MZ
 make clean 
 mkdir -p bin
 sh makeSP_MZ.sh
