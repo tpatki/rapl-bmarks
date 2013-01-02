@@ -23,7 +23,7 @@ export MSR_PKG_POWER_LIMIT=0x0
 export MSR_PP0_POWER_LIMIT=0x0
 export MSR_DRAM_POWER_LIMIT=0x0
 export MSR_RANK_MOD=1 #One task per node, the rest are threads
-export SAMPLE=1
+export SAMPLE=0
 
 t=0
 
@@ -31,7 +31,7 @@ t=0
 #do
 
 export TURBO_ENABLE=1
-export FUNC_INTERCEPT=1
+export FUNC_INTERCEPT=0
 #unbounded measurement
 export READ_WRITE=0
 export READ_ONLY=1
