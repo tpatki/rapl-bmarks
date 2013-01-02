@@ -3,7 +3,7 @@
 #MSUB -A lc
 #MSUB -l nodes=27
 #MSUB -q pbatch
-#MSUB -l walltime=06:00:00
+#MSUB -l walltime=08:00:00
 
 i=16
 minthreads=4
@@ -14,7 +14,6 @@ nodes=8
 maxnodes=27
 
 
-export READ_WRITE=1
 export PKG_MINW_MINS=0x38198
 export PP0_MINW_MINS=0x38198
 export DRAM_MINW_MINS=0x38078
@@ -24,8 +23,11 @@ export MSR_DRAM_POWER_LIMIT=0x0
 export MSR_RANK_MOD=1 #One task per node, the rest are threads
 
 export TURBO_ENABLE=1
-export FUNC_INTERCEPT=1
-export SAMPLE=1
+export FUNC_INTERCEPT=0
+export SAMPLE=0
+
+export READ_ONLY=1
+export READ_WRITE=0
 
 #51, 65, 80 and 95W. Smallest time window.
  
@@ -70,7 +72,10 @@ done
 
 export TURBO_ENABLE=0
 export FUNC_INTERCEPT=0
-export SAMPLE=1
+export SAMPLE=0
+
+export READ_ONLY=0
+export READ_WRITE=1
 
 #51, 65, 80 and 95W. Smallest time window.
  
