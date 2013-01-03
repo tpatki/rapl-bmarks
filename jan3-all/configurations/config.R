@@ -1,7 +1,7 @@
 plotConfig<-function(inpFile,bmarkName,powerBound){
 	d<-read.table(inpFile, header=T)
 	d$totCores=d$nodes * d$cores
-	d1<-d[d$Valid=="yes",]
+	d1<-d[(d$Valid=="yes" & (d$pkg.clamp.0==51 | d$pkg.clamp.0 == 95 | d$pkg.clamp.0==115)),]
 	d2<-d1[d1$totCores==(max(d1$totCores)),]
 	canonical<-d2[d2$pkg.clamp.0==max(d2$pkg.clamp.0),]
 	canonical
@@ -17,7 +17,7 @@ plotConfig<-function(inpFile,bmarkName,powerBound){
 	points(13, canonical[,"totalPow"], pch=15, col="red") 		
 #	axis(1, at=seq(1,12,by=1), lab=paste("(", d1[1:12, "nodes"], ",", d1[1:12, "cores"], ",", d1[1:12, "pkg.clamp.0"], ")"), cex.axis=0.8)
 axis(1, at=seq(1,13,by=1), lab=c(paste("(", d1[1:12, "nodes"], ",", d1[1:12, "cores"], ",", d1[1:12, "pkg.clamp.0"], ")"), paste("(",canonical$nodes,",",canonical$cores,",",canonical$pkg.clamp.0,")")), cex.axis=0.8)
-#	axis(2, at=c(ymin, seq(floor(ymin/1000)*1000,ymax, by=500),ymax), lab=c(ymin,seq(floor(ymin/1000)*1000,ymax, by=500),ymax),cex.axis=1)
+	axis(2, at=c(ymin, seq(floor(ymin/1000)*1000,ymax, by=500),ymax), lab=c(ymin,seq(floor(ymin/1000)*1000,ymax, by=500),ymax),cex.axis=1)
 	abline(h=powerBound, lty=2, col="darkgray")
 	title(main=paste("Benchmark: ", bmarkName, "; Global Power Bound: ", powerBound, "W"), cex=0.5)
 	text(1, d1[1, "totalPow"]-100, paste(signif(d1[1,"avg.time"],5), "s"), cex=0.9)
@@ -36,7 +36,7 @@ axis(1, at=seq(1,13,by=1), lab=c(paste("(", d1[1:12, "nodes"], ",", d1[1:12, "co
 	box(which="plot", lty=1)
 
 
-	text(5.5, powerBound+50, paste(powerBound, "W"), cex=0.9, col="darkgray")
+	text(7.5, powerBound+50, paste(powerBound, "W"), cex=0.9, col="darkgray")
 	detach(d1)
 	
 }
