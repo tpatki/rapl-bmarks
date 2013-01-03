@@ -9,12 +9,12 @@
 #cd synthetic/scale-mem
 #msub rapl-runs-small.msub
 
-cd synthetic/no-scale-mem
+cd synthetic/no-scale-mem-comm
 msub rapl-runs-small.msub
 
 
-#cd ../no-scale-cpu
-#msub rapl-runs-small.msub
+cd ../no-scale-cpu-comm
+msub rapl-runs-small.msub
 
 
 #cd ../scale-cpu

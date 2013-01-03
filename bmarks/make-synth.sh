@@ -24,7 +24,7 @@ make clean && make rapl-icc
 #cd lulesh
 #make clean && make
 
-cd ../../../synthetic/no-scale-mem
+cd ../../../synthetic/no-scale-mem-comm
 make clean && make -j8
 
 #cd ../no-scale-mem
@@ -33,8 +33,8 @@ make clean && make -j8
 #cd ../scale-cpu
 #make clean && make -j8
 
-#cd ../no-scale-cpu
-#make clean && make -j8
+cd ../no-scale-cpu-comm
+make clean && make -j8
 
 #cd ../turbo-tests
 #make clean && make -j8
