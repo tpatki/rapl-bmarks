@@ -1,0 +1,197 @@
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+Initialization complete
+SAMPLE=1
+
+
+In sampleAsync: 
+In sampleAsync: 
+In sampleAsync: 
+
+Initialization complete
+SAMPLE=1
+
+In sampleAsync: 
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+In sampleAsync: 
+
+In sampleAsync: 
+
+Initialization complete
+SAMPLE=1
+
+
+Initialization complete
+SAMPLE=1
+
+In sampleAsync: 
+In sampleAsync: 
+Initialization complete stage 2
+Each chunk is: 256
+Iterations: 2000
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Nodes: 16
+Threads: 16
+ Rank 2 is done initializing
+Time is: 36.971017 secs
+
+ Rank 13 is done initializing
+Time is: 36.970898 secs
+Finalize begin
+
+Finalize begin
+ Rank 14 is done initializing
+Time is: 36.972263 secs
+
+ Rank 1 is done initializing
+Time is: 36.972399 secs
+ Rank 3 is done initializing
+Time is: 36.972126 secs
+ Rank 12 is done initializing
+Time is: 36.972369 secs
+
+Finalize begin
+
+
+Finalize begin
+Finalize begin
+Finalize begin
+ Rank 10 is done initializing
+Time is: 36.972565 secs
+ Rank 5 is done initializing
+Time is: 36.972651 secs
+
+Finalize begin
+
+Finalize begin
+ Rank 0 is done initializing
+Time is: 36.960525 secs
+
+Finalize begin
+ Rank 7 is done initializing
+Time is: 36.973414 secs
+ Rank 8 is done initializing
+Time is: 36.973470 secs
+
+ Rank 15 is done initializing
+Time is: 36.973511 secs
+
+ Rank 4 is done initializing
+Time is: 36.973557 secs
+
+ Rank 11 is done initializing
+Time is: 36.973550 secs
+Finalize begin
+Finalize begin
+Finalize begin
+
+
+Finalize begin
+Finalize begin
+ Rank 6 is done initializing
+Time is: 36.974447 secs
+ Rank 9 is done initializing
+Time is: 36.974495 secs
+
+
+Finalize begin
+Finalize begin
+Finalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize end
