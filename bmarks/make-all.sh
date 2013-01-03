@@ -33,7 +33,7 @@ make clean && make -j8 rapl-icc
 cd ../../../NAS-MZ
 make clean 
 mkdir -p bin
-sh makeLU_MZ.sh
+sh makeBT_MZ.sh
 
 #sh makeBT_MZ.sh
 #sh makeLU_MZ.sh

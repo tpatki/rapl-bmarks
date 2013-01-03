@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd NAS-MZ/LU-MZ/power
+cd NAS-MZ/BT-MZ/power
 msub rapl-runs-small.msub
 #msub turbo-old-lib.msub
 
