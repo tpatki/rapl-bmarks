@@ -1,7 +1,9 @@
 plotConfig<-function(inpFile,bmarkName,powerBound){
 	d<-read.table(inpFile, header=T)
 	d$totCores=d$nodes * d$cores
-	d1<-d[(d$Valid=="yes" & (d$pkg.clamp.0==51 | d$pkg.clamp.0 == 95 | d$pkg.clamp.0==115)),]
+	d1<-d[(d$Valid=="yes" & (d$pkg.clamp.0==51 | d$pkg.clamp.0 == 95 | d$pkg.clamp.0==115 | d$pkg.clamp.0==80)),]
+#	d1<-d[(d$Valid=="yes" & (d$pkg.clamp.0==115)),]
+#	d1<-d[(d$Valid=="yes"),]
 	d2<-d1[d1$totCores==(max(d1$totCores)),]
 	canonical<-d2[d2$pkg.clamp.0==max(d2$pkg.clamp.0),]
 	canonical
@@ -61,3 +63,5 @@ plotConfig("bt-mz.out.3000", "BT-MZ", 3000)
 plotConfig("sp-mz.out.3000", "SP-MZ", 3000)
 plotConfig("lu-mz.out.3000", "LU-MZ", 3000)
 dev.off()
+
+
