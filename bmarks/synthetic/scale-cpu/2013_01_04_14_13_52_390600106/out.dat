@@ -1,0 +1,76 @@
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+Initialization complete
+Initialization complete stage 2
+Each chunk is: 5368709120
+Iterations: 20
+
+
+
+Initialization complete
+Initialization complete
+Initialization complete
+
+Initialization complete
+
+Initialization complete
+
+Initialization complete
+
+Initialization complete
+Initialization complete stage 2
+Time is: 73.240421 secs
+
+Finalize begin
+Initialization complete stage 2
+Time is: 73.276726 secs
+
+Finalize begin
+Initialization complete stage 2
+Time is: 73.437178 secs
+
+Finalize begin
+Nodes: 8
+Time is: 73.551008 secs
+
+Finalize begin
+Initialization complete stage 2
+Time is: 73.575444 secs
+
+Finalize begin
+Initialization complete stage 2
+Time is: 73.583356 secs
+
+Finalize begin
+Initialization complete stage 2
+Time is: 73.973677 secs
+
+Finalize begin
+Initialization complete stage 2
+Time is: 73.989800 secs
+
+Finalize begin
+Finalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize end
