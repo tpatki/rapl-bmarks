@@ -1,0 +1,2226 @@
++ i=16
++ minthreads=4
++ j=8
++ maxnodes=32
++ export PKG_MINW_MINS=0x38198
++ PKG_MINW_MINS=0x38198
++ export PP0_MINW_MINS=0x38198
++ PP0_MINW_MINS=0x38198
++ export DRAM_MINW_MINS=0x38078
++ DRAM_MINW_MINS=0x38078
++ export MSR_PKG_POWER_LIMIT=0x0
++ MSR_PKG_POWER_LIMIT=0x0
++ export MSR_PP0_POWER_LIMIT=0x0
++ MSR_PP0_POWER_LIMIT=0x0
++ export MSR_DRAM_POWER_LIMIT=0x0
++ MSR_DRAM_POWER_LIMIT=0x0
++ export MSR_RANK_MOD=1
++ MSR_RANK_MOD=1
++ export SAMPLE=0
++ SAMPLE=0
++ t=0
++ export TURBO_ENABLE=1
++ TURBO_ENABLE=1
++ export FUNC_INTERCEPT=0
++ FUNC_INTERCEPT=0
++ export READ_WRITE=0
++ READ_WRITE=0
++ export READ_ONLY=1
++ READ_ONLY=1
++ i=16
++ j=8
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_12_57_38_410976564
++ mkdir 2013_01_04_12_57_38_410976564
++ cd 2013_01_04_12_57_38_410976564
++ touch out.dat
++ env
++ echo 2013_01_04_12_57_38_410976564
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo: 1'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_12_58_01_488406315
++ mkdir 2013_01_04_12_58_01_488406315
++ cd 2013_01_04_12_58_01_488406315
++ touch out.dat
++ env
++ echo 2013_01_04_12_58_01_488406315
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo: 1'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_12_58_25_613103824
++ mkdir 2013_01_04_12_58_25_613103824
++ cd 2013_01_04_12_58_25_613103824
++ touch out.dat
++ env
++ echo 2013_01_04_12_58_25_613103824
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo: 1'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_12_58_52_482941277
++ mkdir 2013_01_04_12_58_52_482941277
++ cd 2013_01_04_12_58_52_482941277
++ touch out.dat
++ env
++ echo 2013_01_04_12_58_52_482941277
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo: 1'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_12_59_22_991620494
++ mkdir 2013_01_04_12_59_22_991620494
++ cd 2013_01_04_12_59_22_991620494
++ touch out.dat
++ env
++ echo 2013_01_04_12_59_22_991620494
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo: 1'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_12_59_59_263772429
++ mkdir 2013_01_04_12_59_59_263772429
++ cd 2013_01_04_12_59_59_263772429
++ touch out.dat
++ env
++ echo 2013_01_04_12_59_59_263772429
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo: 1'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_00_45_611621147
++ mkdir 2013_01_04_13_00_45_611621147
++ cd 2013_01_04_13_00_45_611621147
++ touch out.dat
++ env
++ echo 2013_01_04_13_00_45_611621147
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo: 1'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=16
++ '[' 16 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_01_50_947198013
++ mkdir 2013_01_04_13_01_50_947198013
++ cd 2013_01_04_13_01_50_947198013
++ touch out.dat
++ env
++ echo 2013_01_04_13_01_50_947198013
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 16
++ echo 'turbo: 1'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_02_06_626394764
++ mkdir 2013_01_04_13_02_06_626394764
++ cd 2013_01_04_13_02_06_626394764
++ touch out.dat
++ env
++ echo 2013_01_04_13_02_06_626394764
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 16
++ echo 'turbo: 1'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_02_22_424727929
++ mkdir 2013_01_04_13_02_22_424727929
++ cd 2013_01_04_13_02_22_424727929
++ touch out.dat
++ env
++ echo 2013_01_04_13_02_22_424727929
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 16
++ echo 'turbo: 1'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_02_39_834836184
++ mkdir 2013_01_04_13_02_39_834836184
++ cd 2013_01_04_13_02_39_834836184
++ touch out.dat
++ env
++ echo 2013_01_04_13_02_39_834836184
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 16
++ echo 'turbo: 1'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_02_59_906433927
++ mkdir 2013_01_04_13_02_59_906433927
++ cd 2013_01_04_13_02_59_906433927
++ touch out.dat
++ env
++ echo 2013_01_04_13_02_59_906433927
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 16
++ echo 'turbo: 1'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_03_22_128975564
++ mkdir 2013_01_04_13_03_22_128975564
++ cd 2013_01_04_13_03_22_128975564
++ touch out.dat
++ env
++ echo 2013_01_04_13_03_22_128975564
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 16
++ echo 'turbo: 1'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_03_48_550518484
++ mkdir 2013_01_04_13_03_48_550518484
++ cd 2013_01_04_13_03_48_550518484
++ touch out.dat
++ env
++ echo 2013_01_04_13_03_48_550518484
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 16
++ echo 'turbo: 1'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=32
++ '[' 32 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_04_25_461042478
++ mkdir 2013_01_04_13_04_25_461042478
++ cd 2013_01_04_13_04_25_461042478
++ touch out.dat
++ env
++ echo 2013_01_04_13_04_25_461042478
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 32
++ echo 'turbo: 1'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_04_40_255358193
++ mkdir 2013_01_04_13_04_40_255358193
++ cd 2013_01_04_13_04_40_255358193
++ touch out.dat
++ env
++ echo 2013_01_04_13_04_40_255358193
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 32
++ echo 'turbo: 1'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_04_54_650044378
++ mkdir 2013_01_04_13_04_54_650044378
++ cd 2013_01_04_13_04_54_650044378
++ touch out.dat
++ env
++ echo 2013_01_04_13_04_54_650044378
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 32
++ echo 'turbo: 1'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_05_09_931699327
++ mkdir 2013_01_04_13_05_09_931699327
++ cd 2013_01_04_13_05_09_931699327
++ touch out.dat
++ env
++ echo 2013_01_04_13_05_09_931699327
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 32
++ echo 'turbo: 1'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_05_25_632339952
++ mkdir 2013_01_04_13_05_25_632339952
++ cd 2013_01_04_13_05_25_632339952
++ touch out.dat
++ env
++ echo 2013_01_04_13_05_25_632339952
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 32
++ echo 'turbo: 1'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_05_42_675610654
++ mkdir 2013_01_04_13_05_42_675610654
++ cd 2013_01_04_13_05_42_675610654
++ touch out.dat
++ env
++ echo 2013_01_04_13_05_42_675610654
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 32
++ echo 'turbo: 1'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_06_02_068972159
++ mkdir 2013_01_04_13_06_02_068972159
++ cd 2013_01_04_13_06_02_068972159
++ touch out.dat
++ env
++ echo 2013_01_04_13_06_02_068972159
++ uname -a
++ grep MHz
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 32
++ echo 'turbo: 1'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=64
++ '[' 64 -le 32 ']'
++ export TURBO_ENABLE=0
++ TURBO_ENABLE=0
++ export FUNC_INTERCEPT=0
++ FUNC_INTERCEPT=0
++ export READ_WRITE=1
++ READ_WRITE=1
++ export READ_ONLY=0
++ READ_ONLY=0
++ for pkg in 0x38198 0x038208 0x038280 0x0382f8
++ i=16
++ j=8
++ export MSR_PKG_POWER_LIMIT=0x38198
++ MSR_PKG_POWER_LIMIT=0x38198
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_06_26_818831371
++ mkdir 2013_01_04_13_06_26_818831371
++ cd 2013_01_04_13_06_26_818831371
++ touch out.dat
++ env
++ echo 2013_01_04_13_06_26_818831371
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_06_57_769369871
++ mkdir 2013_01_04_13_06_57_769369871
++ cd 2013_01_04_13_06_57_769369871
++ touch out.dat
++ env
++ echo 2013_01_04_13_06_57_769369871
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_07_31_298580955
++ mkdir 2013_01_04_13_07_31_298580955
++ cd 2013_01_04_13_07_31_298580955
++ touch out.dat
++ env
++ echo 2013_01_04_13_07_31_298580955
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_08_08_004899509
++ mkdir 2013_01_04_13_08_08_004899509
++ cd 2013_01_04_13_08_08_004899509
++ touch out.dat
++ env
++ echo 2013_01_04_13_08_08_004899509
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_08_46_376108558
++ mkdir 2013_01_04_13_08_46_376108558
++ cd 2013_01_04_13_08_46_376108558
++ touch out.dat
++ env
++ echo 2013_01_04_13_08_46_376108558
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_09_31_020067947
++ mkdir 2013_01_04_13_09_31_020067947
++ cd 2013_01_04_13_09_31_020067947
++ touch out.dat
++ env
++ echo 2013_01_04_13_09_31_020067947
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_10_25_791536054
++ mkdir 2013_01_04_13_10_25_791536054
++ cd 2013_01_04_13_10_25_791536054
++ touch out.dat
++ env
++ echo 2013_01_04_13_10_25_791536054
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=16
++ '[' 16 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_11_46_106257939
++ mkdir 2013_01_04_13_11_46_106257939
++ cd 2013_01_04_13_11_46_106257939
++ touch out.dat
++ env
++ echo 2013_01_04_13_11_46_106257939
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_12_05_489422299
++ mkdir 2013_01_04_13_12_05_489422299
++ cd 2013_01_04_13_12_05_489422299
++ touch out.dat
++ env
++ echo 2013_01_04_13_12_05_489422299
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_12_26_366914539
++ mkdir 2013_01_04_13_12_26_366914539
++ cd 2013_01_04_13_12_26_366914539
++ touch out.dat
++ env
++ echo 2013_01_04_13_12_26_366914539
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_12_48_844712631
++ mkdir 2013_01_04_13_12_48_844712631
++ cd 2013_01_04_13_12_48_844712631
++ touch out.dat
++ env
++ echo 2013_01_04_13_12_48_844712631
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_13_13_433167414
++ mkdir 2013_01_04_13_13_13_433167414
++ cd 2013_01_04_13_13_13_433167414
++ touch out.dat
++ env
++ echo 2013_01_04_13_13_13_433167414
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_13_39_952535916
++ mkdir 2013_01_04_13_13_39_952535916
++ cd 2013_01_04_13_13_39_952535916
++ touch out.dat
++ env
++ echo 2013_01_04_13_13_39_952535916
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_14_10_857480007
++ mkdir 2013_01_04_13_14_10_857480007
++ cd 2013_01_04_13_14_10_857480007
++ touch out.dat
++ env
++ echo 2013_01_04_13_14_10_857480007
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=32
++ '[' 32 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_14_54_612212386
++ mkdir 2013_01_04_13_14_54_612212386
++ cd 2013_01_04_13_14_54_612212386
++ touch out.dat
++ env
++ echo 2013_01_04_13_14_54_612212386
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_15_11_413676741
++ mkdir 2013_01_04_13_15_11_413676741
++ cd 2013_01_04_13_15_11_413676741
++ touch out.dat
++ env
++ echo 2013_01_04_13_15_11_413676741
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_15_28_802216501
++ mkdir 2013_01_04_13_15_28_802216501
++ cd 2013_01_04_13_15_28_802216501
++ touch out.dat
++ env
++ echo 2013_01_04_13_15_28_802216501
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_15_47_704084381
++ mkdir 2013_01_04_13_15_47_704084381
++ cd 2013_01_04_13_15_47_704084381
++ touch out.dat
++ env
++ echo 2013_01_04_13_15_47_704084381
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_16_07_057195628
++ mkdir 2013_01_04_13_16_07_057195628
++ cd 2013_01_04_13_16_07_057195628
++ touch out.dat
++ env
++ echo 2013_01_04_13_16_07_057195628
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_16_26_186099079
++ mkdir 2013_01_04_13_16_26_186099079
++ cd 2013_01_04_13_16_26_186099079
++ touch out.dat
++ env
++ echo 2013_01_04_13_16_26_186099079
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_16_48_671087499
++ mkdir 2013_01_04_13_16_48_671087499
++ cd 2013_01_04_13_16_48_671087499
++ touch out.dat
++ env
++ echo 2013_01_04_13_16_48_671087499
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=64
++ '[' 64 -le 32 ']'
++ for pkg in 0x38198 0x038208 0x038280 0x0382f8
++ i=16
++ j=8
++ export MSR_PKG_POWER_LIMIT=0x038208
++ MSR_PKG_POWER_LIMIT=0x038208
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_17_16_323139565
++ mkdir 2013_01_04_13_17_16_323139565
++ cd 2013_01_04_13_17_16_323139565
++ touch out.dat
++ env
++ echo 2013_01_04_13_17_16_323139565
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_17_42_871459975
++ mkdir 2013_01_04_13_17_42_871459975
++ cd 2013_01_04_13_17_42_871459975
++ touch out.dat
++ env
++ echo 2013_01_04_13_17_42_871459975
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_18_11_795895252
++ mkdir 2013_01_04_13_18_11_795895252
++ cd 2013_01_04_13_18_11_795895252
++ touch out.dat
++ env
++ echo 2013_01_04_13_18_11_795895252
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_18_43_133530699
++ mkdir 2013_01_04_13_18_43_133530699
++ cd 2013_01_04_13_18_43_133530699
++ touch out.dat
++ env
++ echo 2013_01_04_13_18_43_133530699
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_19_18_489163154
++ mkdir 2013_01_04_13_19_18_489163154
++ cd 2013_01_04_13_19_18_489163154
++ touch out.dat
++ env
++ echo 2013_01_04_13_19_18_489163154
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_20_01_020985426
++ mkdir 2013_01_04_13_20_01_020985426
++ cd 2013_01_04_13_20_01_020985426
++ touch out.dat
++ env
++ echo 2013_01_04_13_20_01_020985426
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_20_55_761725199
++ mkdir 2013_01_04_13_20_55_761725199
++ cd 2013_01_04_13_20_55_761725199
++ touch out.dat
++ env
++ echo 2013_01_04_13_20_55_761725199
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=16
++ '[' 16 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_22_15_031181853
++ mkdir 2013_01_04_13_22_15_031181853
++ cd 2013_01_04_13_22_15_031181853
++ touch out.dat
++ env
++ echo 2013_01_04_13_22_15_031181853
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_22_34_100016705
++ mkdir 2013_01_04_13_22_34_100016705
++ cd 2013_01_04_13_22_34_100016705
++ touch out.dat
++ env
++ echo 2013_01_04_13_22_34_100016705
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_22_53_871192185
++ mkdir 2013_01_04_13_22_53_871192185
++ cd 2013_01_04_13_22_53_871192185
++ touch out.dat
++ env
++ echo 2013_01_04_13_22_53_871192185
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_23_14_352029901
++ mkdir 2013_01_04_13_23_14_352029901
++ cd 2013_01_04_13_23_14_352029901
++ touch out.dat
++ env
++ echo 2013_01_04_13_23_14_352029901
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_23_37_105661982
++ mkdir 2013_01_04_13_23_37_105661982
++ cd 2013_01_04_13_23_37_105661982
++ touch out.dat
++ env
++ echo 2013_01_04_13_23_37_105661982
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_24_03_363829790
++ mkdir 2013_01_04_13_24_03_363829790
++ cd 2013_01_04_13_24_03_363829790
++ touch out.dat
++ env
++ echo 2013_01_04_13_24_03_363829790
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_24_35_336406159
++ mkdir 2013_01_04_13_24_35_336406159
++ cd 2013_01_04_13_24_35_336406159
++ touch out.dat
++ env
++ echo 2013_01_04_13_24_35_336406159
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=32
++ '[' 32 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_25_19_429055679
++ mkdir 2013_01_04_13_25_19_429055679
++ cd 2013_01_04_13_25_19_429055679
++ touch out.dat
++ env
++ echo 2013_01_04_13_25_19_429055679
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_25_36_537666469
++ mkdir 2013_01_04_13_25_36_537666469
++ cd 2013_01_04_13_25_36_537666469
++ touch out.dat
++ env
++ echo 2013_01_04_13_25_36_537666469
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_25_51_827070594
++ mkdir 2013_01_04_13_25_51_827070594
++ cd 2013_01_04_13_25_51_827070594
++ touch out.dat
++ env
++ echo 2013_01_04_13_25_51_827070594
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_26_07_738703160
++ mkdir 2013_01_04_13_26_07_738703160
++ cd 2013_01_04_13_26_07_738703160
++ touch out.dat
++ env
++ echo 2013_01_04_13_26_07_738703160
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_26_25_563062990
++ mkdir 2013_01_04_13_26_25_563062990
++ cd 2013_01_04_13_26_25_563062990
++ touch out.dat
++ env
++ echo 2013_01_04_13_26_25_563062990
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_26_44_786600488
++ mkdir 2013_01_04_13_26_44_786600488
++ cd 2013_01_04_13_26_44_786600488
++ touch out.dat
++ env
++ echo 2013_01_04_13_26_44_786600488
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_27_05_920844005
++ mkdir 2013_01_04_13_27_05_920844005
++ cd 2013_01_04_13_27_05_920844005
++ touch out.dat
++ env
++ echo 2013_01_04_13_27_05_920844005
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=64
++ '[' 64 -le 32 ']'
++ for pkg in 0x38198 0x038208 0x038280 0x0382f8
++ i=16
++ j=8
++ export MSR_PKG_POWER_LIMIT=0x038280
++ MSR_PKG_POWER_LIMIT=0x038280
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_27_33_397799026
++ mkdir 2013_01_04_13_27_33_397799026
++ cd 2013_01_04_13_27_33_397799026
++ touch out.dat
++ env
++ echo 2013_01_04_13_27_33_397799026
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_27_57_736590701
++ mkdir 2013_01_04_13_27_57_736590701
++ cd 2013_01_04_13_27_57_736590701
++ touch out.dat
++ env
++ echo 2013_01_04_13_27_57_736590701
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_28_24_621404497
++ mkdir 2013_01_04_13_28_24_621404497
++ cd 2013_01_04_13_28_24_621404497
++ touch out.dat
++ env
++ echo 2013_01_04_13_28_24_621404497
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_28_54_954127955
++ mkdir 2013_01_04_13_28_54_954127955
++ cd 2013_01_04_13_28_54_954127955
++ touch out.dat
++ env
++ echo 2013_01_04_13_28_54_954127955
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_29_31_383604041
++ mkdir 2013_01_04_13_29_31_383604041
++ cd 2013_01_04_13_29_31_383604041
++ touch out.dat
++ env
++ echo 2013_01_04_13_29_31_383604041
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_30_14_062636383
++ mkdir 2013_01_04_13_30_14_062636383
++ cd 2013_01_04_13_30_14_062636383
++ touch out.dat
++ env
++ echo 2013_01_04_13_30_14_062636383
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_31_09_025332906
++ mkdir 2013_01_04_13_31_09_025332906
++ cd 2013_01_04_13_31_09_025332906
++ touch out.dat
++ env
++ echo 2013_01_04_13_31_09_025332906
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=16
++ '[' 16 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_32_28_191002421
++ mkdir 2013_01_04_13_32_28_191002421
++ cd 2013_01_04_13_32_28_191002421
++ touch out.dat
++ env
++ echo 2013_01_04_13_32_28_191002421
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_32_45_396825801
++ mkdir 2013_01_04_13_32_45_396825801
++ cd 2013_01_04_13_32_45_396825801
++ touch out.dat
++ env
++ echo 2013_01_04_13_32_45_396825801
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_33_04_391148880
++ mkdir 2013_01_04_13_33_04_391148880
++ cd 2013_01_04_13_33_04_391148880
++ touch out.dat
++ env
++ echo 2013_01_04_13_33_04_391148880
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_33_24_830693578
++ mkdir 2013_01_04_13_33_24_830693578
++ cd 2013_01_04_13_33_24_830693578
++ touch out.dat
++ env
++ echo 2013_01_04_13_33_24_830693578
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_33_46_848824405
++ mkdir 2013_01_04_13_33_46_848824405
++ cd 2013_01_04_13_33_46_848824405
++ touch out.dat
++ env
++ echo 2013_01_04_13_33_46_848824405
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_34_12_953206542
++ mkdir 2013_01_04_13_34_12_953206542
++ cd 2013_01_04_13_34_12_953206542
++ touch out.dat
++ env
++ echo 2013_01_04_13_34_12_953206542
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_34_45_128134735
++ mkdir 2013_01_04_13_34_45_128134735
++ cd 2013_01_04_13_34_45_128134735
++ touch out.dat
++ env
++ echo 2013_01_04_13_34_45_128134735
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=32
++ '[' 32 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_35_29_286232609
++ mkdir 2013_01_04_13_35_29_286232609
++ cd 2013_01_04_13_35_29_286232609
++ touch out.dat
++ env
++ echo 2013_01_04_13_35_29_286232609
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_35_44_540057228
++ mkdir 2013_01_04_13_35_44_540057228
++ cd 2013_01_04_13_35_44_540057228
++ touch out.dat
++ env
++ echo 2013_01_04_13_35_44_540057228
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_36_00_488795942
++ mkdir 2013_01_04_13_36_00_488795942
++ cd 2013_01_04_13_36_00_488795942
++ touch out.dat
++ env
++ echo 2013_01_04_13_36_00_488795942
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_36_16_406847570
++ mkdir 2013_01_04_13_36_16_406847570
++ cd 2013_01_04_13_36_16_406847570
++ touch out.dat
++ env
++ echo 2013_01_04_13_36_16_406847570
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_36_34_070038513
++ mkdir 2013_01_04_13_36_34_070038513
++ cd 2013_01_04_13_36_34_070038513
++ touch out.dat
++ env
++ echo 2013_01_04_13_36_34_070038513
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_36_52_980894063
++ mkdir 2013_01_04_13_36_52_980894063
++ cd 2013_01_04_13_36_52_980894063
++ touch out.dat
++ env
++ echo 2013_01_04_13_36_52_980894063
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_37_14_547253172
++ mkdir 2013_01_04_13_37_14_547253172
++ cd 2013_01_04_13_37_14_547253172
++ touch out.dat
++ env
++ echo 2013_01_04_13_37_14_547253172
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=64
++ '[' 64 -le 32 ']'
++ for pkg in 0x38198 0x038208 0x038280 0x0382f8
++ i=16
++ j=8
++ export MSR_PKG_POWER_LIMIT=0x0382f8
++ MSR_PKG_POWER_LIMIT=0x0382f8
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_37_41_767518768
++ mkdir 2013_01_04_13_37_41_767518768
++ cd 2013_01_04_13_37_41_767518768
++ touch out.dat
++ env
++ echo 2013_01_04_13_37_41_767518768
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_38_06_753258060
++ mkdir 2013_01_04_13_38_06_753258060
++ cd 2013_01_04_13_38_06_753258060
++ touch out.dat
++ env
++ echo 2013_01_04_13_38_06_753258060
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_38_34_211925519
++ mkdir 2013_01_04_13_38_34_211925519
++ cd 2013_01_04_13_38_34_211925519
++ touch out.dat
++ env
++ echo 2013_01_04_13_38_34_211925519
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_39_04_716010062
++ mkdir 2013_01_04_13_39_04_716010062
++ cd 2013_01_04_13_39_04_716010062
++ touch out.dat
++ env
++ echo 2013_01_04_13_39_04_716010062
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_39_40_575553318
++ mkdir 2013_01_04_13_39_40_575553318
++ cd 2013_01_04_13_39_40_575553318
++ touch out.dat
++ env
++ echo 2013_01_04_13_39_40_575553318
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_40_23_258381231
++ mkdir 2013_01_04_13_40_23_258381231
++ cd 2013_01_04_13_40_23_258381231
++ touch out.dat
++ env
++ echo 2013_01_04_13_40_23_258381231
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_41_17_862884786
++ mkdir 2013_01_04_13_41_17_862884786
++ cd 2013_01_04_13_41_17_862884786
++ touch out.dat
++ env
++ echo 2013_01_04_13_41_17_862884786
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo: ' 0
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=16
++ '[' 16 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_42_36_866714781
++ mkdir 2013_01_04_13_42_36_866714781
++ cd 2013_01_04_13_42_36_866714781
++ touch out.dat
++ env
++ echo 2013_01_04_13_42_36_866714781
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_42_54_660221492
++ mkdir 2013_01_04_13_42_54_660221492
++ cd 2013_01_04_13_42_54_660221492
++ touch out.dat
++ env
++ echo 2013_01_04_13_42_54_660221492
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_43_13_757470273
++ mkdir 2013_01_04_13_43_13_757470273
++ cd 2013_01_04_13_43_13_757470273
++ touch out.dat
++ env
++ echo 2013_01_04_13_43_13_757470273
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_43_33_057354617
++ mkdir 2013_01_04_13_43_33_057354617
++ cd 2013_01_04_13_43_33_057354617
++ touch out.dat
++ env
++ echo 2013_01_04_13_43_33_057354617
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_43_56_063318230
++ mkdir 2013_01_04_13_43_56_063318230
++ cd 2013_01_04_13_43_56_063318230
++ touch out.dat
++ env
++ echo 2013_01_04_13_43_56_063318230
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_44_22_064006400
++ mkdir 2013_01_04_13_44_22_064006400
++ cd 2013_01_04_13_44_22_064006400
++ touch out.dat
++ env
++ echo 2013_01_04_13_44_22_064006400
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_44_54_111239993
++ mkdir 2013_01_04_13_44_54_111239993
++ cd 2013_01_04_13_44_54_111239993
++ touch out.dat
++ env
++ echo 2013_01_04_13_44_54_111239993
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 16
++ echo 'turbo: ' 0
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=32
++ '[' 32 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_45_38_211438328
++ mkdir 2013_01_04_13_45_38_211438328
++ cd 2013_01_04_13_45_38_211438328
++ touch out.dat
++ env
++ echo 2013_01_04_13_45_38_211438328
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_45_54_514009756
++ mkdir 2013_01_04_13_45_54_514009756
++ cd 2013_01_04_13_45_54_514009756
++ touch out.dat
++ env
++ echo 2013_01_04_13_45_54_514009756
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_46_10_758793336
++ mkdir 2013_01_04_13_46_10_758793336
++ cd 2013_01_04_13_46_10_758793336
++ touch out.dat
++ env
++ echo 2013_01_04_13_46_10_758793336
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_46_26_192945130
++ mkdir 2013_01_04_13_46_26_192945130
++ cd 2013_01_04_13_46_26_192945130
++ touch out.dat
++ env
++ echo 2013_01_04_13_46_26_192945130
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_46_44_365631399
++ mkdir 2013_01_04_13_46_44_365631399
++ cd 2013_01_04_13_46_44_365631399
++ touch out.dat
++ env
++ echo 2013_01_04_13_46_44_365631399
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_47_03_765989243
++ mkdir 2013_01_04_13_47_03_765989243
++ cd 2013_01_04_13_47_03_765989243
++ touch out.dat
++ env
++ echo 2013_01_04_13_47_03_765989243
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_04_13_47_26_320896515
++ mkdir 2013_01_04_13_47_26_320896515
++ cd 2013_01_04_13_47_26_320896515
++ touch out.dat
++ env
++ echo 2013_01_04_13_47_26_320896515
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 32
++ echo 'turbo: ' 0
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark2
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=64
++ '[' 64 -le 32 ']'
++ git add .
++ git commit -a -m Results-synth-2
