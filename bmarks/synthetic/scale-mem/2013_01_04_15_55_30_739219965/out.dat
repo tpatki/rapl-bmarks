@@ -1,0 +1,165 @@
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+Initialization complete
+Initialization complete stage 2
+Each chunk is: 256
+Iterations: 2000
+Nodes: 16
+Threads: 4
+
+Initialization complete
+
+Initialization complete stage 2
+Initialization complete
+Initialization complete stage 2
+
+
+Initialization complete
+Initialization complete
+Initialization complete stage 2
+Initialization complete stage 2
+
+Initialization complete
+Initialization complete stage 2
+
+Initialization complete
+Initialization complete stage 2
+
+Initialization complete
+Initialization complete stage 2
+
+
+Initialization complete
+Initialization complete
+Initialization complete stage 2
+Initialization complete stage 2
+
+
+Initialization complete
+Initialization complete
+Initialization complete stage 2
+Initialization complete stage 2
+
+Initialization complete
+Initialization complete stage 2
+
+Initialization complete
+Initialization complete stage 2
+
+Initialization complete
+
+Initialization complete stage 2
+Initialization complete
+Initialization complete stage 2
+ Rank 2 is done initializing
+Time is: 75.217776 secs
+
+Finalize begin
+ Rank 1 is done initializing
+Time is: 75.282318 secs
+
+Finalize begin
+ Rank 7 is done initializing
+Time is: 75.421278 secs
+
+Finalize begin
+ Rank 5 is done initializing
+Time is: 75.613658 secs
+
+Finalize begin
+ Rank 8 is done initializing
+Time is: 75.857110 secs
+
+Finalize begin
+ Rank 9 is done initializing
+Time is: 75.907357 secs
+
+Finalize begin
+ Rank 6 is done initializing
+Time is: 76.794690 secs
+
+Finalize begin
+ Rank 12 is done initializing
+Time is: 77.103460 secs
+
+Finalize begin
+ Rank 4 is done initializing
+Time is: 77.143400 secs
+
+Finalize begin
+ Rank 0 is done initializing
+Time is: 77.172007 secs
+
+Finalize begin
+ Rank 3 is done initializing
+Time is: 78.296990 secs
+
+Finalize begin
+ Rank 10 is done initializing
+Time is: 78.497034 secs
+
+Finalize begin
+ Rank 14 is done initializing
+Time is: 79.285552 secs
+
+Finalize begin
+ Rank 15 is done initializing
+Time is: 80.392246 secs
+
+Finalize begin
+ Rank 11 is done initializing
+Time is: 83.132089 secs
+
+Finalize begin
+ Rank 13 is done initializing
+Time is: 84.259146 secs
+
+Finalize begin
+Finalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize end

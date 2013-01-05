@@ -1,0 +1,197 @@
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+
+
+
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+In READ-ONLY mode.
+
+ENABLING TURBO
+
+
+
+
+
+Initialization complete
+Initialization complete
+Initialization complete
+Initialization complete
+Initialization complete
+Initialization complete
+Initialization complete
+
+Initialization complete
+Initialization complete
+Initialization complete
+Initialization complete
+Initialization complete stage 2
+Each chunk is: 256
+Iterations: 2000
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Nodes: 16
+Initialization complete stage 2
+
+Initialization complete
+
+Initialization complete stage 2
+Initialization complete
+Initialization complete stage 2
+Threads: 16
+
+
+
+Initialization complete
+Initialization complete
+Initialization complete
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+ Rank 2 is done initializing
+Time is: 18.734522 secs
+
+Finalize begin
+ Rank 4 is done initializing
+Time is: 18.762399 secs
+
+Finalize begin
+ Rank 6 is done initializing
+Time is: 18.829273 secs
+
+Finalize begin
+ Rank 12 is done initializing
+Time is: 18.915323 secs
+
+Finalize begin
+ Rank 9 is done initializing
+Time is: 18.956554 secs
+
+Finalize begin
+ Rank 15 is done initializing
+Time is: 18.973893 secs
+
+Finalize begin
+ Rank 1 is done initializing
+Time is: 18.978726 secs
+
+Finalize begin
+ Rank 3 is done initializing
+Time is: 19.064984 secs
+
+Finalize begin
+ Rank 13 is done initializing
+Time is: 19.094512 secs
+
+Finalize begin
+ Rank 10 is done initializing
+Time is: 19.101203 secs
+
+Finalize begin
+ Rank 5 is done initializing
+Time is: 19.122359 secs
+
+Finalize begin
+ Rank 8 is done initializing
+Time is: 19.352667 secs
+
+Finalize begin
+ Rank 7 is done initializing
+Time is: 19.379921 secs
+
+Finalize begin
+ Rank 11 is done initializing
+Time is: 19.382780 secs
+
+Finalize begin
+ Rank 14 is done initializing
+Time is: 19.483707 secs
+
+Finalize begin
+ Rank 0 is done initializing
+Time is: 20.444041 secs
+
+Finalize begin
+Finalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize end

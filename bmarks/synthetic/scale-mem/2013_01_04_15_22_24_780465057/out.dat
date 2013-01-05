@@ -1,0 +1,85 @@
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+Initialization complete
+Initialization complete stage 2
+Each chunk is: 512
+Iterations: 2000
+Nodes: 8
+Threads: 12
+
+Initialization complete
+Initialization complete stage 2
+
+Initialization complete
+Initialization complete stage 2
+
+Initialization complete
+Initialization complete stage 2
+
+Initialization complete
+Initialization complete stage 2
+
+Initialization complete
+Initialization complete stage 2
+
+Initialization complete
+Initialization complete stage 2
+
+Initialization complete
+Initialization complete stage 2
+ Rank 0 is done initializing
+Time is: 53.567570 secs
+
+Finalize begin
+ Rank 3 is done initializing
+Time is: 53.778747 secs
+
+Finalize begin
+ Rank 6 is done initializing
+Time is: 54.819512 secs
+
+Finalize begin
+ Rank 4 is done initializing
+Time is: 55.130985 secs
+
+Finalize begin
+ Rank 2 is done initializing
+Time is: 56.816224 secs
+
+Finalize begin
+ Rank 1 is done initializing
+Time is: 59.776758 secs
+
+Finalize begin
+ Rank 7 is done initializing
+Time is: 59.995909 secs
+
+Finalize begin
+ Rank 5 is done initializing
+Time is: 60.651993 secs
+
+Finalize begin
+Finalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize end
