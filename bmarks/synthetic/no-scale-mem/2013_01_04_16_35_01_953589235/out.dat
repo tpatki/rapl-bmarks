@@ -1,0 +1,325 @@
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+Default: SAMPLE is set to zero. If you want to profile the program, set the SAMPLE environment variable to one.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+Initialization complete
+
+Initialization complete
+
+Initialization complete
+
+Initialization complete
+
+Initialization complete
+
+Initialization complete
+
+Initialization complete
+
+Initialization complete
+
+Initialization complete
+
+Initialization complete
+
+Initialization complete
+
+Initialization complete
+
+
+Initialization complete
+Initialization complete
+
+Initialization complete
+
+Initialization complete
+
+
+Initialization complete
+
+Initialization complete
+Initialization complete
+
+Initialization complete
+
+Initialization complete
+
+Initialization complete
+
+Initialization complete
+
+Initialization complete
+
+
+
+Initialization complete
+Initialization complete
+Initialization complete
+
+Initialization complete
+
+Initialization complete
+
+
+Initialization complete
+Initialization complete
+
+Initialization complete
+Initialization complete stage 2
+Each chunk is: 128
+Iterations: 2000
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Initialization complete stage 2
+Nodes: 32
+Threads: 4
+ Rank 0 is done initializing
+Time is: 47.094839 secs
+ Rank 2 is done initializing
+Time is: 47.096266 secs
+ Rank 29 is done initializing
+Time is: 47.096243 secs
+
+
+ Rank 31 is done initializing
+Time is: 47.096338 secs
+
+Finalize begin
+
+Finalize begin
+Finalize begin
+Finalize begin
+ Rank 3 is done initializing
+Time is: 47.096617 secs
+
+ Rank 28 is done initializing
+Time is: 47.096631 secs
+
+Finalize begin
+Finalize begin
+ Rank 7 is done initializing
+Time is: 47.098422 secs
+
+ Rank 24 is done initializing
+Time is: 47.098570 secs
+
+Finalize begin
+Finalize begin
+ Rank 27 is done initializing
+Time is: 47.098730 secs
+
+ Rank 4 is done initializing
+Time is: 47.098882 secs
+Finalize begin
+
+Finalize begin
+ Rank 15 is done initializing
+Time is: 47.099187 secs
+ Rank 16 is done initializing
+Time is: 47.099186 secs
+
+
+Finalize begin
+Finalize begin
+ Rank 5 is done initializing
+Time is: 47.099705 secs
+
+ Rank 26 is done initializing
+Time is: 47.099395 secs
+
+Finalize begin
+ Rank 12 is done initializing
+Time is: 47.099787 secs
+
+Finalize begin
+Finalize begin
+ Rank 19 is done initializing
+Time is: 47.099813 secs
+
+Finalize begin
+ Rank 1 is done initializing
+Time is: 47.100027 secs
+
+ Rank 30 is done initializing
+Time is: 47.099987 secs
+
+Finalize begin
+Finalize begin
+ Rank 6 is done initializing
+Time is: 47.100228 secs
+
+ Rank 25 is done initializing
+Time is: 47.100257 secs
+
+Finalize begin
+Finalize begin
+ Rank 14 is done initializing
+Time is: 47.101169 secs
+
+ Rank 17 is done initializing
+Time is: 47.101142 secs
+
+Finalize begin
+Finalize begin
+ Rank 11 is done initializing
+Time is: 47.101930 secs
+
+ Rank 20 is done initializing
+Time is: 47.101911 secs
+
+Finalize begin
+Finalize begin
+ Rank 13 is done initializing
+Time is: 47.102546 secs
+ Rank 18 is done initializing
+Time is: 47.102614 secs
+
+
+Finalize begin
+Finalize begin
+ Rank 8 is done initializing
+Time is: 47.104602 secs
+
+ Rank 23 is done initializing
+Time is: 47.104589 secs
+Finalize begin
+
+Finalize begin
+ Rank 10 is done initializing
+Time is: 47.104879 secs
+
+ Rank 21 is done initializing
+Time is: 47.104886 secs
+
+Finalize begin
+Finalize begin
+ Rank 22 is done initializing
+Time is: 47.106203 secs
+
+ Rank 9 is done initializing
+Time is: 47.106268 secs
+
+Finalize begin
+Finalize begin
+Finalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize endFinalize end
